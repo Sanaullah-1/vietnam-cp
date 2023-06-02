@@ -1,0 +1,769 @@
+{
+  "complete_profile": {
+    "title": "Complete Your Profile",
+    "sub_title": "Live Account",
+    "form": {
+      "labels": {
+        "title": "Title",
+        "dob": "Date of birth",
+        "nationality": "Nationality",
+        "addr_1": "Address line 1",
+        "addr_2": "Address Line 2",
+        "lang": "Preferred Language",
+        "city": "Town/City",
+        "postal": "Postal/Zip Code",
+        "profession": "Profession",
+        "employment": "Employment Status",
+        "job": "Job Title",
+        "employer": "Name of Employer",
+        "income": "Annual Income",
+        "funds_source": "Source of Funds",
+        "politically_member": "Are you or any member of your family a politically exposed person ?",
+        "fatca": "FATCA",
+        "fatca_decription": "FATCA is a US law that means Mauritus must collect information on US tax residents using foreign accounts.",
+        "usa_citizen": "Are you a citizen of the United States of America?",
+        "tax": "Tax identification number (if applicable)",
+        "work_relevant": "I have worked for at least 2 years in a directly relevant role within the financial services industry"
+      },
+      "declarations": {
+        "title": "By Clicking Submit, you hereby confirm and agree to the following:",
+        "list": [
+          "That you have read, understood, acknowledged, and agreed to all Accuindex’s policies, terms & conditions and client agreements which are available on the company’s website <a href=\"https://www.accuindex.com\" target=\"_blank\">www.accuindex.com<a/>",
+          " You have read, understood, and agreed to Accuindex’s client agreement which includes order execution policy, conflict of interest policy,  <a href=\"https://exiniti.blob.core.windows.net/public/docs/privacy-policy_1607614241451.pdf\" target=\"_blank\"> privacy policy </a>, 3<sup>rd</sup> party disclosure policy and any other terms in the <a href=\"https://exiniti.blob.core.windows.net/public/docs/client-agrement_1607614230105.pdf\" target=\"_blank\">client agreement</a>.",
+          "You confirm that you do not breach any regulation of your country of residence in trading with Accuindex.",
+          "Your electronic signature is considered a legal and official signature"
+        ]
+      },
+      "cta": "Submit"
+    }
+  },
+  "trading_accounts": {
+    "table_headers": {
+      "account": "Account",
+      "leverage": "Leverage",
+      "equiti": "Equiti",
+      "balance": "Balance",
+      "margin": "Margin",
+      "credit": "Credit",
+      "platforms": "Platforms",
+      "options": "Options",
+      "action": "Action"
+    },
+    "table_body": {
+      "no_demo_data": "You dont have demo trading accounts",
+      "webtrader": "WebTrader",
+      "no_live_data": "You dont have live trading accounts",
+      "deposit": "Deposit",
+      "change_leverage": "Change Leverage",
+      "total": "Total",
+      "copy_trading_account": "Copy trading account"
+    },
+    "title": "",
+    "title_live": "Live Accounts",
+    "title_demo": "Demo Accounts",
+    "demo_cta": "Demo Accounts",
+    "live_cta": "Live Accounts",
+    "selected_acc": "A/C",
+    "positions": {
+      "close_title": "Closed Positions",
+      "table_headers": {
+        "symbol": "Symbol",
+        "ticket": "Ticket",
+        "time": "Time",
+        "deal": "Deal Type",
+        "volume": "Volume",
+        "price": "Price",
+        "sl": "S/L",
+        "tp": "T/P",
+        "profit": "Profit"
+      },
+      "table_body": {
+        "no_close_data": "You haven't have any closed position.",
+        "no_open_data": "You haven't have any open position.",
+        "buy": "Buy"
+      },
+      "open_title": "Open Positions"
+    },
+    "recent_transactions": {
+      "title": "Recent Transactions",
+      "table_headers": {
+        "account": "Account",
+        "type": "Type",
+        "date": "Date Created",
+        "transaction_id": "Transaction ID",
+        "mode": "Mode",
+        "amount": "Amount",
+        "status": "Status"
+      },
+      "table_body": {
+        "no_data": "You dont have any recent transactions"
+      }
+    }
+  },
+  "header": {
+    "ib_portal": "IB Portal",
+    "menu": {
+      "profile": "Profile",
+      "logout": "Logout"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "withdrawal": "Withdrawal",
+    "internal_transfer": "Internal Transfer",
+    "partnership": "Partnership",
+    "my_clients": "My Clients",
+    "partner_structures": "Partner Structures",
+    "statement": "Statment",
+    "accounts": "Accounts",
+    "profile": "Profile",
+    "funds": "Funds",
+    "deposit": "Deposit",
+    "bank_accounts": "Bank Accounts",
+    "accupay": "Accupay",
+    "reports": "Reports",
+    "platform": "Platform",
+    "webtrader": "Web Trader",
+    "logout": "Logout"
+  },
+  "change_leverage": {
+    "title": "Change Account Leverage",
+    "form": {
+      "leverage": "Leverage",
+      "cta": "Save Changes"
+    }
+  },
+  "change_password": {
+    "title": "Change Account Password",
+    "form": {
+      "new_password": "New Password",
+      "confirm_password": " Confirm New Password",
+      "cta": "Save Changes",
+      "master": "Master",
+      "investor": "Investor"
+    }
+  },
+  "accupay": {
+    "title": "Accupay Card",
+    "sub_title": "My Card",
+    "description": "Your Card application is still pending with the specialized team. You will receive a confirmation email once the Card Application is approved.",
+    "cta": {
+      "request": "Request",
+      "accupay_card": "Accupay Card"
+    },
+    "already_requested": "Accupay card has been requested!"
+  },
+  "activities": {
+    "title": "Activities",
+    "go_back": "Profile",
+    "table": {
+      "headers": {
+        "activity": "Activity",
+        "date_time": "Date/Time"
+      }
+    }
+  },
+  "forgot_password": {
+    "title": "Welcome to Accuindex Trader`s Room!",
+    "sub-title": "Trader’s Room is an outstanding tool allowing you to create new trading accounts, access existing ones, deposit or withdraw funds, download the latest trading software and much more. Your personal account management system is simply one step away.",
+    "heading": "Forgot Password?",
+    "description": "Enter your email and you will recieve a reset link",
+    "form": {
+      "labels": {
+        "email": "Email"
+      },
+      "cta": "Send",
+      "success_message": "Reset password link has been send successfully!"
+    },
+    "remembred": "<0>Remembered your password? <2>Login</2></0>"
+  },
+  "login": {
+    "title": "Welcome to Accuindex Trader`s Room!",
+    "sub-title": "Trader’s Room is an outstanding tool allowing you to create new trading accounts, access existing ones, deposit or withdraw funds, download the latest trading software and much more. Your personal account management system is simply one step away.",
+    "heading": "Welcome back!",
+    "description": "Login to your account",
+    "form": {
+      "labels": {
+        "email": "Email",
+        "password": "Password",
+        "forgot_password": "Forgot password?"
+      },
+      "cta": "Login",
+      "remember_me": "Remember me"
+    },
+    "dont_have_account": "<0>Don't have an account? <2>Apply for a live account</2></0>"
+  },
+  "verify_pin": {
+    "title": "Welcome to Accuindex Trader`s Room!",
+    "sub-title": "Trader’s Room is an outstanding tool allowing you to create new trading accounts, access existing ones, deposit or withdraw funds, download the latest trading software and much more. Your personal account management system is simply one step away.",
+    "heading": "Verification Code",
+    "description": "Please enter the code sent to ",
+    "resend_code": "<0>Didn't receive code? <2>Resend</2></0>",
+    "cta": "Register Me",
+    "success_message": "Code recent successfully!"
+  },
+  "register": {
+    "title": "Welcome to Accuindex Trader`s Room!",
+    "sub-title": "Trader’s Room is an outstanding tool allowing you to create new trading accounts, access existing ones, deposit or withdraw funds, download the latest trading software and much more. Your personal account management system is simply one step away.",
+    "heading": "Register now, it's easy!",
+    "description": "Sign up for Accuindex Live account and take advantage of competitive commissions, pro trading tools and thousands of instruments to trade.",
+    "form": {
+      "labels": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone_number": "Phone Number",
+        "email": "Email Address",
+        "password": "Password",
+        "confirm_password": "Confirm Password"
+      },
+      "agreement": "By registering you agree to our <1>privacy policy</1>",
+      "cta": "Submit"
+    },
+    "already_have_account": "<0>Already have an account? <2>Log in</2></0>"
+  },
+  "reset_password": {
+    "title": "Welcome to Accuindex Trader`s Room!",
+    "sub-title": "Trader’s Room is an outstanding tool allowing you to create new trading accounts, access existing ones, deposit or withdraw funds, download the latest trading software and much more. Your personal account management system is simply one step away.",
+    "heading": "Reset Password",
+    "description": "Enter your new password",
+    "form": {
+      "labels": {
+        "new_password": "New Password",
+        "confirm_new_password": "Confirm New Password"
+      },
+      "cta": "Reset",
+      "error_message": "Something went wrong!",
+      "success_message": "Your password has been reset successfully! redirecting you to login..."
+    }
+  },
+  "bank_accounts": {
+    "title": "Bank Accounts",
+    "table": {
+      "headers": {
+        "holder_name": "Account Holder Name",
+        "bank_name": "Beneficiary Bank Name",
+        "currency": "Currency",
+        "operations": "Operations"
+      },
+      "body": {
+        "no_data": "You dont have any bank accounts",
+        "update_cta": "update"
+      }
+    },
+    "new_cta": "Add new bank",
+    "go_back": "Bank accounts",
+    "form": {
+      "labels": {
+        "holder_name": "Account Holder Name*",
+        "beneficiary_name": "Beneficiary Bank Name*",
+        "iban": "Iban*",
+        "bank_address": "Beneficiary Bank Address*",
+        "currency": "Currency*",
+        "account_number": "Bank Account Number*",
+        "swift": "Bank Swift Code*"
+      },
+      "actions": {
+        "update": "Update",
+        "submit": "Submit"
+      }
+    }
+  },
+  "dashboard": {
+    "summary": {
+      "title": "Account Summary",
+      "total_balance": "Total Balance",
+      "total_credit": "Total Credit",
+      "total_equity": "Total Equity",
+      "total_deposits": "Total Deposits",
+      "total_withdrawal": "Total Withdrawal"
+    },
+    "recent_activity": {
+      "title": "Recent Activities",
+      "cta": "View More"
+    },
+    "journey": {
+      "verified_message": "Your account is now verified. Please fund your account to start trading.",
+      "non_verified_message": "Your account is not verified. Please upload you ID",
+      "fund_cta": "Fund Account",
+      "upload_cta": "Upload Documents"
+    },
+    "copy_trading": {
+      "title": "Trading is easier with AccuConnect",
+      "description": "Copy the trades of professional and expert traders, and watch your profits grow.",
+      "cta": "Start Copying"
+    },
+    "live_accounts": {
+      "title": "Live Accounts",
+      "cta": "Create Account"
+    },
+    "demo_accounts": {
+      "title": "Demo Accounts",
+      "cta": "Create Account"
+    },
+    "vietnam_campaign":{
+      "title":"WELCOME BONUS FOR VIETNAMESE CLIENTS",
+      "description":"Boost your trading power with a 15% deposit bonus",
+      "btn":"Claim bonus"
+
+    }
+  },
+  "deposit": {
+    "forms": {
+      "select_account": "Select Trading Account",
+      "amount": "USD",
+      "cta": "Continue",
+      "payment_cuurency": "Payment Currency",
+      "description": "Description",
+      "account_payee": "Payee Account",
+      "card_number": "Card Number",
+      "payment_type": "Select Payment Type",
+      "converted_amount": "Converted Amount",
+      "notes": "Notes",
+      "select_bank": "Select Bank",
+      "crypto_message_prefix": "All Transactions are made on the",
+      "crypto_message_suffix": "Network"
+    },
+    "title": "Fund Your Account Easily and Securely",
+    "select_method": "Select Payment Method",
+    "fund_with": "Fund with",
+    "note": "Please note that if you are using a new payment method that was not used before, your deposit might not be applied immediately into your account and might take up to 24 hours to be reviewed and processed. On some occasions we might request a proof that the card or payment account is under your name"
+  },
+  "ib_portal": {
+    "summary": {
+      "title": "IB Account Summary",
+      "total_live_clients": "Total Live Clients",
+      "total_demo_clients": "Total Demo Clients",
+      "total_balance": "Total Balance",
+      "total_clients_deposits": "Total Clients Deposits",
+      "total_clients_withdrawal": "Total Clients Withdrawal",
+      "total_withdrawal_profit": "Total Withdrawal Profit"
+    },
+    "recent_clients": {
+      "title": "",
+      "title_live": "Recent Live Clients",
+      "title_demo": "Recent Demo Clients",
+      "demo": "Demo",
+      "live": "Live",
+      "table": {
+        "headings": {
+          "name": "Name",
+          "mobile_number": "Mobile Number",
+          "email": "Email",
+          "status": "Status",
+          "date_time": "Date/Time"
+        },
+        "empty": "",
+        "empty_live": "You haven't had any live clients.",
+        "empty_demo": "You haven't had any demo clients.",
+        "body": {
+          "active": "Active",
+          "non_active": "Non Active"
+        }
+      }
+    },
+    "recent_transactions": {
+      "title": "",
+      "title_deposit": "Recent Deposits",
+      "title_withdrawal": "Recent Withdrawals",
+      "withdrawal": "Withdrawals",
+      "deposits": "Deposits",
+      "table": {
+        "heading": {
+          "account": "Account",
+          "transaction_id": "Transaction ID",
+          "mode": "Mode",
+          "amount": "Amount",
+          "status": "Status",
+          "date": "Date Created"
+        },
+        "body": {
+          "empty": "No data"
+        }
+      }
+    },
+    "client_trading_accounts": {
+      "title": "Trading Accounts For",
+      "table": {
+        "headings": {
+          "name": "Name",
+          "account_type": "Account Type",
+          "account_no": "Account NO",
+          "structure": "Structure",
+          "currency": "Currency",
+          "paltform": "Platform",
+          "balance": "Balance"
+        },
+        "body": {
+          "empty": "No data"
+        }
+      }
+    },
+    "client_activity": {
+      "title": "",
+      "title_live": "Live Clients Activity",
+      "title_demo": "Demo Clients Activity",
+      "demo": "Demo",
+      "live": "Live",
+      "filter_by": "Filter By",
+      "filter": {
+        "date_from": "Date From",
+        "date_to": "Date To",
+        "search": "Search",
+        "all": "All",
+        "by_name": "By Name",
+        "by_email": "By Email"
+      },
+      "table": {
+        "headings": {
+          "name": "Name",
+          "mobile_number": "Phone Number",
+          "email": "Email",
+          "status": "Status",
+          "date_time": "Date/Time"
+        },
+        "body": {
+          "empty": "No data"
+        }
+      },
+      "trading_activity": {
+        "title": "Trading Activity",
+        "live_trades": "Live Trades",
+        "close_trades": "Close Trades",
+        "table": {
+          "headings": {
+            "symbol": "Symbol",
+            "ticket": "Ticket",
+            "time": "Time",
+            "deal_type": "Deal Type",
+            "volume": "Volume",
+            "price": "Price",
+            "sl": "S/L",
+            "tp": "T/P",
+            "price_position": "Price Position",
+            "profit": "Profit"
+          },
+          "body": {
+            "empty": "No data"
+          }
+        }
+      }
+    },
+    "client_statement": {
+      "title": "Statement For {{firstName}}",
+      "commission": "Commission",
+      "rebate": "Rebate",
+      "table": {
+        "headings": {
+          "symbol": "Symbol",
+          "account": "Account",
+          "position_id": "Position ID",
+          "deal_id": "Deal ID",
+          "volume": "Volume",
+          "type": "{{type}}"
+        },
+        "body": {
+          "empty": "No data"
+        }
+      }
+    },
+    "statement": {
+      "title": "Statement",
+      "filter_by": "Filter By",
+      "from_date": "From Date",
+      "to_date": "To Date",
+      "account_type": "Account type",
+      "search": "Search",
+      "table": {
+        "headings": {
+          "name": "Name",
+          "type": "Type",
+          "email": "Email",
+          "ib_commission": "IB Commission",
+          "ib_repate": "IB Rebate"
+        },
+        "body": {
+          "empty": "No data"
+        }
+      }
+    },
+    "structures": {
+      "title": "Structures",
+      "dedicated_links": {
+        "title": "Structure Dedicated Links",
+        "table": {
+          "headings": {
+            "account_type": "Link Type",
+            "approved": "Approved",
+            "register_demo": "Register Demo",
+            "register_live": "Register Live",
+            "register_ib": "Register IB"
+          }
+        },
+        "copied": "Copied to clipboard"
+      },
+      "structure_details": {
+        "title": "Strucutre Details",
+        "table": {
+          "headings": {
+            "account_type": "Account Type",
+            "total_repate": "Total Rebate",
+            "total_commission": "Total Commission"
+          },
+          "body": {
+            "empty_members": "No Data"
+          }
+        }
+      },
+      "structure_members": {
+        "title": "Structure Members"
+      }
+    }
+  },
+  "internal_transfer": {
+    "title": "Move Funds",
+    "transfer_to": "Transfer To",
+    "my_account": "My Account",
+    "client_account": "Client Account",
+    "form": {
+      "platform": "Platform",
+      "from_account": "From Account",
+      "to_account": "To Account",
+      "transfer_amount": "Transfer Amount",
+      "notes": "Notes",
+      "cta": "Transfer",
+      "success_message": "Funds transfered successfully!"
+    }
+  },
+  "withdrawal": {
+    "form": {
+      "select_account": "Select an Account",
+      "amount": "Amount",
+      "note": "Note",
+      "cta": "Continue",
+      "success_message": "Withdrawal request has been made",
+      "card_number": "Card Number",
+      "wallet_id": "Wallet ID",
+      "select_bank": "Select Bank"
+    },
+    "select_gateway": "Select Gateway",
+    "choose_method_to_withdrawal": "Choose gateway to withdrawal",
+    "title": "Withdrawal",
+    "notice_title": "Important Notice",
+    "noties1": "Accuindex, in accordance with international laws on combating terrorist financing and money laundering, does not accept payments from third parties & payments to third parties are not carried out.",
+    "noties2": "Accuindex may require additional documentation /information from you to prove your bank account held in your name as third party payments are not permitted.",
+    "noties3": "All withdrawals will be returned to the original source of funding. any profits on your account must be retumed to you via bank transfer."
+  },
+  "ib_withdrawal": {
+    "choose_gateway": "Select Gateway",
+    "title": "Withdrawal",
+    "note": {
+      "title": "Important Notice",
+      "note_1": "Accuindex, in accordance with international laws on combating terrorist financing and money laundering, does not accept payments from third parties & payments to third parties are not carried out.",
+      "note_2": "Accuindex may require additional documentation /information from you to prove your bank account held in your name as third party payments are not permitted.",
+      "note_3": "All withdrawals will be returned to the original source of funding. any profits on your account must be retumed to you via bank transfer."
+    }
+  },
+  "my_application": {
+    "go_back": "Profile",
+    "title": "My Applications",
+    "description": "Individual Account Application - (English)",
+    "agreement": "Accuindex Client Agreement"
+  },
+  "new_account": {
+    "not_verified": "Your account is not verified, please <2>upload your ID</2>.",
+    "title": "",
+    "go_back": "Accounts",
+    "max_reached": "You have reached maximum accounts, request for new account",
+    "form": {
+      "platform": "Platform",
+      "metatader": "MetaTrader",
+      "account_type": "Account type",
+      "loading": "Loading",
+      "currency": "Currency",
+      "us_dollar": "US Dollars",
+      "reason_text": "Reason for opening an additional account",
+      "balance": "Balance",
+      "account_password": "Trading Account Password",
+      "uppercase": "Uppercase",
+      "lowercase": "Lowercase",
+      "numbers": "Numbers",
+      "request_cta": "Request",
+      "submit_cta": "Create Account"
+    },
+    "title_live": "Create Live Account",
+    "title_demo": "Create Demo Account"
+  },
+  "partnership": {
+    "request": {
+      "title": "IB Application",
+      "go_back": "Partnership",
+      "form": {
+        "labels": {
+          "financial": "Do You Have Any Financial Market Webiste / Blog You Intend To User For Promotion?*",
+          "reffered": "Have You Reffered Clients To Other Providers?*",
+          "acquire": "How Do You Acquire Clients?*",
+          "countries": "Countries of audience intending to acquire*",
+          "expected_clients": "How many clients do you expect introducting in the first 12 months?*"
+        },
+        "cta": "Submit"
+      }
+    },
+    "title": "Partnership",
+    "no_partnership_message": "You don't have any partnership, please click below to request partnership",
+    "requested_message": "Partnership has been requested!",
+    "cta": "Partnership For Request"
+  },
+  "platforms": {
+    "title": "Trading Platforms",
+    "desktop": {
+      "title": "Desktop",
+      "metatader": "Metatrader",
+      "meta_4": {
+        "description": "Download for free to take advantage of all the benefits it has to offer in conjunction with the Accuindex MT4 Trading account.",
+        "list": [
+          "Charting capabilities",
+          "Automated trading",
+          "Customization"
+        ]
+      },
+      "meta_5": {
+        "description": "Download for free to take advantage of all the benefits it has to offer in conjunction with the Accuindex MT5 Trading account.",
+        "list": [
+          "Enhanced charting capabilities",
+          "Improved automated trading",
+          "More advanced customization options"
+        ]
+      },
+      "mq": {
+        "list": [
+          "Enhanced charting capabilities",
+          "Improved automated trading",
+          "More advanced customization options"
+        ]
+      }
+    },
+    "download_windows": "Download For Windows",
+    "download_android": "Download For Android",
+    "download_ios": "Download For IOS",
+    "mq": {
+      "title": "MQ Webtrader",
+      "description": "It will meet your needs as an experienced or novice trader. There are trading strategies readily available for you to use.",
+      "cta": "Lunch MQ webtrader"
+    },
+    "mobile": {
+      "title": "Mobile",
+      "metatader": "MetaTrader",
+      "accugoname": "AccuGo",
+      "accuconnectname": "AccuConnect",
+      "meta_4": {
+        "description": "Download for free to take advantage of all the benefits it has to offer in conjunction with the Accuindex MT4 Trading account.",
+        "list": [
+          "Charting tools for mobile devices",
+          "Automated trading on-the-go",
+          "Customization options for mobile trading experience"
+        ]
+      },
+      "meta_5": {
+        "description": "Download for free to take advantage of all the benefits it has to offer in conjunction with the Accuindex MT5 Trading account.",
+        "list": [
+          "Charting tools for mobile devices",
+          "Automated trading on-the-go",
+          "Customization options for mobile trading experience"
+        ]
+      },
+      "accugo": {
+        "description": "Enjoy lightning-fast trade execution with secure online trading conditions. Get the most out of the financial markets with AccuGo’s trusted quick execution.",
+        "list": [
+          "Unique protection technology.",
+          "A sophisticated dashboard.",
+          "Easy trading experience."
+        ]
+      },
+      "accuconnect": {
+        "description": "Copy the moves of pro traders with AccuConnect! Our app helps you track performance and adjust strategies to get the best results. Download today and start trading smarter!",
+        "list": [
+          "Easy-to-use interface",
+          "Very well designed",
+          "Provide the latest technology for an easy copy trade experience."
+        ]
+      }
+    }
+  },
+  "profile": {
+    "change_password": {
+      "title": "Change Portal Password",
+      "form": {
+        "currenct_password": "Current Password*",
+        "new_password": "New Password*",
+        "confirm_password": "Confirm New Password*",
+        "cta": "Submit",
+        "success_message": "Password has been changed successfully!"
+      }
+    },
+    "settings": {
+      "title": "My Settings",
+      "go_back": "Profile",
+      "account": {
+        "label": "Account Settings",
+        "form": {
+          "label": "Title",
+          "first_name": "First Name*",
+          "last_name": "Last Name*",
+          "email": "Email*",
+          "phone_number": "Phone Number*",
+          "nationality": "Nationality*",
+          "residence": "Country Of Residence*",
+          "address": "Address"
+        }
+      }
+    },
+    "my_docs": {
+      "title": "My Documents",
+      "description": "Sed ut perspiciatis unde omnis"
+    },
+    "my_application": {
+      "title": "My Applications",
+      "description": "Sed ut perspiciatis unde omnis"
+    },
+    "activities": {
+      "title": "Activies",
+      "description": "Sed ut perspiciatis unde omnis"
+    }
+  },
+  "reports": {
+    "title": "Transactions Report",
+    "filter_by": "Filter By",
+    "form": {
+      "type": "Type",
+      "account": "Account",
+      "date_from": "Date From",
+      "date_to": "Date To"
+    },
+    "table": {
+      "headers": {
+        "account": "Account",
+        "type": "Type",
+        "amount": "Amount",
+        "gateway": "Gateway",
+        "date_created": "Date Created",
+        "status": "Status"
+      },
+      "body": {
+        "no_data": "You dont have any transaction for this filter"
+      }
+    }
+  },
+  "my_documents": {
+    "title": "My Documents",
+    "cta": "Add New Document",
+    "upload": "Upload New Document",
+    "heading": "My Documents",
+    "save": "Save"
+  },
+  "Proof Of Residence": "Proof Of Residence",
+  "Proof Of Identity": "Proof Of Identity",
+  "Additional Document": "Additional Document",
+  "Campaign":{
+    "title":"Campaign"
+  }
+}

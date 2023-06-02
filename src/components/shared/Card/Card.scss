@@ -1,0 +1,61 @@
+@import "src/styles/variables";
+
+.card-wrapper {
+  padding: 30px;
+  .card-header {
+    padding: 0;
+    background-color: white;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > h2 {
+      font-size: 26px;
+      font-weight: 600;
+      color: $heading-color;
+      margin-bottom: 0;
+    }
+  }
+
+  .card-tabs {
+    display: flex;
+    column-gap: 12px;
+    margin-bottom: 0;
+    li {
+      font-size: 14px;
+      font-weight: 600;
+      color: $light-gray;
+      position: relative;
+      padding: 0 10px 10px;
+      min-width: 15px;
+      cursor: pointer;
+      &:hover {
+        color: $primary;
+      }
+      &.active {
+        color: $primary;
+        &::after {
+          animation: slide 0.5s ease forwards;
+          content: "";
+          position: absolute;
+          left: 10px;
+          bottom: 0;
+          height: 2.5px;
+          border-radius: 10px;
+          width: 60%;
+          max-width: 46px;
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}

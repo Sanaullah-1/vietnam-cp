@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="619" height="200" viewBox="0 0 619 200">
+    <defs>
+        <filter id="udh5ofsmia" x="0" y="0" width="619" height="200" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="5.5" result="blur"/>
+            <feFlood flood-opacity=".129"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="Group 79767">
+        <g style="filter:url(#udh5ofsmia)">
+            <g data-name="Rectangle 4" transform="translate(16.5 16.496)" style="stroke:#b0b1b5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:2 6;fill:none">
+                <rect width="586" height="167" rx="2" style="stroke:none"/>
+                <rect x=".5" y=".5" width="585" height="166" rx="1.5" style="fill:none"/>
+            </g>
+        </g>
+        <g data-name="Group 15329">
+            <text data-name="Shopping cart" transform="translate(263.838 139.15)" style="font-size:19px;font-family:OpenSans-Regular,Open Sans;fill:#b0b1b5"><tspan x="0" y="0">Add Photo</tspan></text>
+            <path data-name="Path 13463" d="M30.582 20.5a12.582 12.582 0 1 0 12.581 12.582A12.6 12.6 0 0 0 30.582 20.5z" transform="translate(278.028 49.779)" style="fill:#b0b1b5"/>
+            <path data-name="Path 13464" d="M57.876 15.985h-8.937L44.745 5.5H18.162l-4.193 10.485h-1.387v-5.243H6.291v5.242H5.032A5.036 5.036 0 0 0 0 21.016v30.791a5.073 5.073 0 0 0 5.067 5.067H57.84a5.073 5.073 0 0 0 5.067-5.067V21.016a5.036 5.036 0 0 0-5.031-5.031zm-47.391 0h-2.1v-3.146h2.1zm20.969 36.7a18.872 18.872 0 1 1 18.872-18.877 18.894 18.894 0 0 1-18.872 18.873zM54.52 28.566a4.194 4.194 0 1 1 4.194-4.194 4.2 4.2 0 0 1-4.194 4.194z" transform="translate(277.156 49.052)" style="fill:#b0b1b5"/>
+        </g>
+    </g>
+</svg>

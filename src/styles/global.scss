@@ -1,0 +1,97 @@
+html[dir="rtl"] {
+  body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #f4f6f9;
+  color: $dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+  margin: 0;
+}
+
+h5.heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+table.table {
+  thead {
+    th {
+      background-color: #eaecee;
+      font-size: 13px;
+      color: $light-gray;
+      font-weight: 600;
+      padding: 1rem 5px;
+      white-space: nowrap;
+
+      &:first-child,
+      &:last-child {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  tbody,
+  tfoot {
+    td {
+      white-space: nowrap;
+      color: $dark;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 1rem 5px;
+      background-color: white;
+      vertical-align: middle;
+
+      &:first-child,
+      &:last-child {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  tbody td {
+    border-bottom: 1px solid #ebebeb;
+  }
+
+  tfoot td.empty-row {
+    background: transparent;
+    padding: 4px 0;
+  }
+}
+
+section.section {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 991.98px) {
+  table {
+
+    td,
+    th {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  h5.heading {
+    font-size: 18px;
+  }
+}

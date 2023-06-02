@@ -1,0 +1,709 @@
+{
+    "complete_profile": {
+      "title": "Hoàn thành hồ sơ của bạn",
+      "sub_title": "Tài khoản Live",
+      "form": {
+        "labels": {
+          "title": "Tiêu đề",
+          "dob": "Ngày tháng năm sinh",
+          "nationality": "Quốc tịch",
+          "addr_1": "Địa chỉ 1",
+          "addr_2": "Địa chỉ 2",
+          "lang": "Ngôn ngữ ưu tiên",
+          "city": "Thị trấn/Thành phố",
+          "postal": "Mã bưu chính",
+          "profession": "Nghề nghiệp",
+          "employment": "Tình trạng việc làm",
+          "job": "Chức vụ",
+          "employer": "Tên Công ty",
+          "income": "Thu nhập hàng năm",
+          "funds_source": "Nguồn vốn",
+          "politically_member": "Bạn hoặc bất kỳ thành viên nào trong gia đình là chính trị gia không?",
+          "fatca": "FATCA",
+          "fatca_decription": "FATCA là luật của Hoa Kỳ có nghĩa là Mauritus phải thu thập thông tin thuế về cư dân Hoa Kỳ sử dụng tài khoản nước ngoài.",
+          "usa_citizen": "Bạn có phải là công dân của Hợp chủng quốc Hoa Kỳ không?",
+          "tax": "Mã số thuế (nếu có)",
+          "work_relevant": "Tôi đã làm việc ít nhất 2 năm với vai trò liên quan trực tiếp trong ngành dịch vụ tài chính"
+        },
+        "declarations": {
+          "title": "Bằng cách nhấp vào Gửi, bạn xác nhận và đồng ý với những điều sau:",
+          "list": [
+            "Rằng bạn đã đọc, hiểu, thừa nhận và đồng ý với tất cả các chính sách, điều khoản & điều kiện và thỏa thuận khách hàng của Accuindex có sẵn trên trang web của công ty  <a href=\"https://www.accuindex.com\" target=\"_blank\">www.accuindex.com<a/>",
+            " Bạn đã đọc, hiểu và đồng ý với thỏa thuận khách hàng của Accuindex bao gồm Chính sách thực hiện lệnh, Chính sách xung đột lợi ích,  <a href=\"https://exiniti.blob.core.windows.net/public/docs/privacy-policy_1607614241451.pdf\" target=\"_blank\"> privacy policy </a>, 3<sup>rd</sup> party disclosure policy and any other terms in the <a href=\"https://exiniti.blob.core.windows.net/public/docs/client-agrement_1607614230105.pdf\" target=\"_blank\">client agreement</a>.",
+            "Bạn xác nhận rằng bạn không vi phạm bất kỳ quy định nào của quốc gia cư trú của bạn khi giao dịch với Accuindex. ",
+            "Chữ ký điện tử của bạn được coi là chữ ký hợp pháp và chính thức"
+          ]
+        },
+        "cta": "Gửi"
+      }
+    },
+    "trading_accounts": {
+      "table_headers": {
+        "account": "Tài khoản",
+        "leverage": "Đòn bẫy",
+        "equiti": "Vốn chủ sở hữu",
+        "balance": "Số dư tài khoản",
+        "margin": "Ký quỹ",
+        "credit": "Tín dụng",
+        "platforms": "Nền tảng",
+        "options": "Tùy chọn",
+        "action": "Hành động"
+      },
+      "table_body": {
+        "no_demo_data": "Bạn không có tài khoản giao dịch Demo",
+        "webtrader": "WebTrader",
+        "no_live_data": "Bạn không có tài khoản giao dịch Live",
+        "deposit": "Nạp tiền",
+        "change_leverage": "Thay đổi đòn bẫy",
+        "total": "Tổng",
+        "copy_trading_account": "Sao chép tài khoản giao dịch"
+      },
+      "title": "",
+      "title_live": "Tài khoản trực Live",
+      "title_demo": "Tài khoản Demo",
+      "demo_cta": "Tài khoản Demo",
+      "live_cta": "Tài khoản Live",
+      "selected_acc": "A/C",
+      "positions": {
+        "close_title": "Vị thế đã đóng",
+        "table_headers": {
+          "symbol": "Biểu tượng",
+          "ticket": "Ticket",
+          "time": "Thời gian",
+          "deal": "Loại giao dịch",
+          "volume": "Khối lượng giao dịch",
+          "price": "Giá",
+          "sl": "S/L",
+          "tp": "T/P",
+          "profit": "Lợi nhuận"
+        },
+        "table_body": {
+          "no_close_data": "Bạn chưa có bất kỳ vị thế đóng nào.",
+          "no_open_data": "Bạn chưa có bất kỳ vị thế mở nào.",
+          "buy": "Mua"
+        },
+        "open_title": "Các vị thể mở"
+      },
+      "recent_transactions": {
+        "title": "Giao dịch gần đây",
+        "table_headers": {
+          "account": "Tài khoản",
+          "type": "Loại",
+          "date": "Ngày nạp tiền",
+          "transaction_id": "ID giao dịch",
+          "mode": "Phương thức",
+          "amount": "Tổng số",
+          "status": "Trạng thái"
+        },
+        "table_body": {
+          "no_data": "Bạn không có bất kỳ giao dịch nào gần đây"
+        }
+      }
+    },
+    "header": {
+      "ib_portal": "Cổng IB",
+      "menu": {
+        "profile": "Hồ sơ",
+        "logout": "Đăng xuất"
+      }
+    },
+    "sidebar": {
+      "dashboard": "Bảng điều khiển",
+      "withdrawal": "Rút tiền",
+      "internal_transfer": "Chuyển khoản nội bộ",
+      "partnership": "Đối tác",
+      "my_clients": "Khách hàng của tôi",
+      "partner_structures": "Cấu trúc đối tác",
+      "statement": "Báo cáo",
+      "accounts": "Các tài khoản",
+      "profile": "Hồ sơ",
+      "funds": "Quỹ",
+      "deposit": "Nạp tiền",
+      "bank_accounts": "Tài khoản Ngân hàng",
+      "accupay": "Accupay",
+      "reports": "Báo cáo",
+      "platform": "Nền tảng",
+      "webtrader": "Web Trader",
+      "logout": "Đăng xuất"
+    },
+    "change_leverage": {
+      "title": "Thay đổi đòn bẩy tài khoản",
+      "form": {
+        "leverage": "Đòn bẫy",
+        "cta": "Lưu thay đổi"
+      }
+    },
+    "change_password": {
+      "title": "Thay đổi mật khẩu tài khoản",
+      "form": {
+        "new_password": "Mật khẩu mới",
+        "confirm_password": " Xác nhận mật khẩu mới",
+        "cta": "Save Changes"
+      }
+    },
+    "accupay": {
+      "title": "Thẻ Accupay",
+      "sub_title": "Thẻ của tôi",
+      "description": "Đơn đăng ký thẻ của bạn vẫn đang chờ xử lý với nhóm chuyên môn. Bạn sẽ nhận được email xác nhận sau khi Đơn đăng ký Thẻ được chấp thuận.",
+      "cta": {
+        "request": "Yêu cầu",
+        "accupay_card": "Thẻ Accupay"
+      },
+      "already_requested": "Thẻ Accupay đã được yêu cầu!"
+    },
+    "activities": {
+      "title": "Các hoạt động",
+      "go_back": "Hồ sơ",
+      "table": {
+        "headers": {
+          "activity": "Hoạt động",
+          "date_time": "Ngày/Thời gian"
+        }
+      }
+    },
+    "forgot_password": {
+      "title": "Chào mừng bạn đến với phòng giao dịch của Accuindex!",
+      "sub-title": "Phòng giao dịch là một công cụ nổi bật cho phép bạn tạo tài khoản giao dịch mới, truy cập các tài khoản hiện có, gửi hoặc rút tiền, tải xuống phần mềm giao dịch mới nhất và hơn thế nữa. Hệ thống quản lý tài khoản cá nhân của bạn chỉ cách một bước đơn giản.",
+      "heading": "Quên mật khẩu?",
+      "description": "Nhập email và bạn sẽ nhận được đặt lại liên kết",
+      "form": {
+        "labels": {
+          "email": "Email"
+        },
+        "cta": "Gửi",
+        "success_message": "Đặt lại mật khẩu đã được gửi thành công!"
+      },
+      "remembred": "<0>Bạn đã nhớ mật khẩu? <2>Đăng nhập</2></0>"
+    },
+    "login": {
+      "title": "Chào mừng bạn đến với phòng giao dịch của AccuIndex!",
+      "sub-title": "Phòng giao dịch là một công cụ nổi bật cho phép bạn tạo tài khoản giao dịch mới, truy cập các tài khoản hiện có, gửi hoặc rút tiền, tải xuống phần mềm giao dịch mới nhất và hơn thế nữa. Hệ thống quản lý tài khoản cá nhân của bạn chỉ cách một bước đơn giản.",
+      "heading": "Chào mừng bạn đã quay trở lại!",
+      "description": "Đăng nhập vào tài khoản của bạn",
+      "form": {
+        "labels": {
+          "email": "Email",
+          "password": "Mật khẩu",
+          "forgot_password": "Quên mật khẩu?"
+        },
+        "cta": "Quên mật khẩu",
+        "remember_me": "Remember me"
+      },
+      "dont_have_account": "<0>Bạn chưa có tài khoản? <2>Đăng ký tài khoản Live</2></0>"
+    },
+    "verify_pin": {
+      "title": "Chào mừng bạn đến với phòng giao dịch của AccuIndex!",
+      "sub-title": "Phòng giao dịch là một công cụ nổi bật cho phép bạn tạo tài khoản giao dịch mới, truy cập các tài khoản hiện có, gửi hoặc rút tiền, tải xuống phần mềm giao dịch mới nhất và hơn thế nữa. Hệ thống quản lý tài khoản cá nhân của bạn chỉ cách một bước đơn giản.",
+      "heading": "Mã xác nhận",
+      "description": "Vui lòng nhập mã được gửi đến",
+      "resend_code": "<0>Không nhận được mã?  <2>Resend</2></0>",
+      "cta": "Đăng ký cho tôi",
+      "success_message": "Mã đã được gửi lại thành công!"
+    },
+    "register": {
+      "title": "Chào mừng bạn đến với phòng giao dịch của AccuIndex!",
+      "sub-title": "Phòng giao dịch là một công cụ nổi bật cho phép bạn tạo tài khoản giao dịch mới, truy cập các tài khoản hiện có, gửi hoặc rút tiền, tải xuống phần mềm giao dịch mới nhất và hơn thế nữa. Hệ thống quản lý tài khoản cá nhân của bạn chỉ cách một bước đơn giản.",
+      "heading": "Đăng ký ngay, thật dễ dàng!",
+      "description": "Đăng ký tài khoản Accuindex Live và tận hưởng hoa hồng cạnh tranh, công nghệ giao dịch chuyên nghiệp và hàng ngàn sản phẩm để giao dịch.",
+      "form": {
+        "labels": {
+          "firstName": "Tên",
+          "lastName": "Họ",
+          "phone_number": "Số điện thoại",
+          "email": "Địa chỉ Email",
+          "password": "Mật khẩu",
+          "confirm_password": "Xác nhận mật khẩu"
+        },
+        "agreement": "Bằng cách đăng ký, bạn đồng ý với  <1>chính sách bảo mật</1>",
+        "cta": "Gửi"
+      },
+      "already_have_account": "<0>Bạn đã có tài khoản? <2>Đăng nhập</2></0>"
+    },
+    "reset_password": {
+      "title": "Chào mừng bạn đến với phòng giao dịch của AccuIndex!",
+      "sub-title": "Phòng giao dịch là một công cụ nổi bật cho phép bạn tạo tài khoản giao dịch mới, truy cập các tài khoản hiện có, gửi hoặc rút tiền, tải xuống phần mềm giao dịch mới nhất và hơn thế nữa. Hệ thống quản lý tài khoản cá nhân của bạn chỉ cách một bước đơn giản.",
+      "heading": "Đặt lại mật khẩu",
+      "description": "Nhập mật khẩu mới của bạn",
+      "form": {
+        "labels": {
+          "new_password": "Mật khẩu mới",
+          "confirm_new_password": "Xác nhận mật khẩu mới"
+        },
+        "cta": "Đặt lại",
+        "error_message": "Đã xảy ra sự cố!",
+        "success_message": "Mật khẩu của bạn đã được đặt lại thành công! Hãy đăng nhập lại..."
+      }
+    },
+    "bank_accounts": {
+      "title": "Tài khoản Ngân hàng",
+      "table": {
+        "headers": {
+          "holder_name": "Tên chủ tài khoản",
+          "bank_name": "Tên ngân hàng thụ hưởng",
+          "currency": "Tiền tệ",
+          "operations": "Hoạt động"
+        },
+        "body": {
+          "no_data": "Bạn không có bất kỳ tài khoản ngân hàng nào",
+          "update_cta": "Cập nhật"
+        }
+      },
+      "new_cta": "Thêm tài khoản Ngân hàng mới",
+      "go_back": "Tài khoản ngân hàng",
+      "form": {
+        "labels": {
+          "holder_name": "Tên chủ tài khoản*",
+          "beneficiary_name": "Ngân hàng thụ hưởng*",
+          "iban": "Iban*",
+          "bank_address": "Địa chỉ ngân hàng thụ hưởng*",
+          "currency": "Tiền tệ*",
+          "account_number": "Số tài khoản Ngân hàng*",
+          "swift": "Mã Swift*"
+        },
+        "actions": {
+          "update": "Cập nhật",
+          "submit": "Gửi"
+        }
+      }
+    },
+    "dashboard": {
+      "summary": {
+        "title": "Tóm tắt tài khoản",
+        "total_balance": "Tổng số dư",
+        "total_credit": "Tổng tín dụng",
+        "total_equity": "Tổng vốn chủ sở hữu",
+        "total_deposits": "Tổng nạp",
+        "total_withdrawal": "Tổng rút"
+      },
+      "recent_activity": {
+        "title": "Các hoạt động gần đây",
+        "cta": "Xem thêm"
+      },
+      "journey": {
+        "verified_message": "Tài khoản của bạn hiện đã được xác minh. Hãy nạp tiền vào tài khoản để bắt đầu trải nghiệm giao dịch tại AccuIndex.",
+        "non_verified_message": "Tài khoản của bạn chưa được xác minh. Vui lòng tải lên ID của bạn.",
+        "fund_cta": "Tài khoản Quỹ",
+        "upload_cta": "Tải tài liệu"
+      },
+      "copy_trading": {
+        "title": "Sao chép tài khoản giao dịch",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+        "cta": "Bắt đầu sao chép"
+      },
+      "live_accounts": {
+        "title": "Tài khoản Live",
+        "cta": "Tạo tài khoản"
+      },
+      "demo_accounts": {
+        "title": "Tài khoản Demo",
+        "cta": "Tạo tài khoản"
+      }
+    },
+    "deposit": {
+      "forms": {
+        "select_account": "Chọn tài khoản",
+        "amount": "Tổng số tiền",
+        "cta": "Tiếp tục",
+        "payment_cuurency": "Tiền tệ thanh toán",
+        "description": "Mô tả",
+        "account_payee": "Tài khoản thụ hưởng",
+        "card_number": "Số tài khoản",
+        "payment_type": "Chọn hình thức thanh toán",
+        "converted_amount": "Số tiền quy đổi",
+        "notes": "Ghi chú",
+        "select_bank": "Chọn Ngân hàng",
+        "crypto_message_prefix": "Tất cả các giao dịch được thực hiện trên",
+        "crypto_message_suffix": "Mạng lưới"
+      },
+      "title": "Nạp tiền vào tài khoản của bạn một cách dễ dàng và an toàn",
+      "select_method": "Chọn phương thức thanh toán",
+      "fund_with": "Nạp tiền với",
+      "note": "Xin lưu ý rằng nếu bạn đang sử dụng phương thức thanh toán mới chưa được sử dụng trước đây, khoản tiền gửi của bạn có thể không được áp dụng ngay lập tức vào tài khoản của bạn và có thể mất đến 24 giờ để được xem xét và xử lý. Trong một số trường hợp, chúng tôi có thể yêu cầu bằng chứng rằng thẻ hoặc tài khoản thanh toán đứng tên bạn"
+    },
+    "ib_portal": {
+      "summary": {
+        "title": "Tổng quan tài khoản IB",
+        "total_live_clients": "Tổng khách hàng Live",
+        "total_demo_clients": "Tổng khách hàng Demo",
+        "total_balance": "Tổng số dư",
+        "total_clients_deposits": "Tổng khách hàng gửi tiền",
+        "total_clients_withdrawal": "Tổng khách hàng rút tiền",
+        "total_withdrawal_profit": "Tổng lợi nhuận"
+      },
+      "recent_clients": {
+        "title": "",
+        "title_live": "Khách hàng Live gần đây",
+        "title_demo": "Khách hàng Demo gần đây",
+        "demo": "Demo",
+        "live": "Live",
+        "table": {
+          "headings": {
+            "name": "Tên",
+            "mobile_number": "Số điện thoại",
+            "email": "Email",
+            "status": "Trạng thái",
+            "date_time": "Ngày/Thời gian"
+          },
+          "empty": "",
+          "empty_live": "Bạn chưa có bất kỳ khách hàng Live nào.",
+          "empty_demo": "Bạn chưa có bất kỳ khách hàng Demo nào.",
+          "body": {
+            "active": "Hoạt động",
+            "non_active": "Không hoạt động"
+          }
+        }
+      },
+      "recent_transactions": {
+        "title": "",
+        "title_deposit": "Tiền gửi gần đây",
+        "title_withdrawal": "Tiền rút gần đây",
+        "withdrawal": "Rút tiền",
+        "deposits": "Nạp tiền",
+        "table": {
+          "heading": {
+            "account": "Tài khoản",
+            "transaction_id": "ID giao dịch ",
+            "mode": "Phương thức",
+            "amount": "Số tiền",
+            "status": "Trạng thái",
+            "date": "Ngày tạo"
+          },
+          "body": {
+            "empty": "Không có dữ liệu"
+          }
+        }
+      },
+      "client_activity": {
+        "title": "",
+        "title_live": "Hoạt động của khách hàng Live",
+        "title_demo": "Hoạt động của khách hàng Demo",
+        "demo": "Demo",
+        "live": "Live",
+        "filter_by": "Lọc theo",
+        "filter": {
+          "date_from": "Dữ liệu từ",
+          "date_to": "Dữ liệu đến",
+          "search": "Tìm kiếm",
+          "all": "Tất cả",
+          "by_name": "Bằng tên",
+          "by_email": "Bằng Email"
+        },
+        "table": {
+          "headings": {
+            "name": "Tên",
+            "mobile_number": "Số điện thoại",
+            "email": "Email",
+            "status": "Trạng thái",
+            "date_time": "Ngày/Thời gian"
+          },
+          "body": {
+            "empty": "Không có dữ liệu"
+          }
+        },
+        "trading_activity": {
+          "title": "Tài khoản giao dịch cho",
+          "live_trades": "Những giao dịch đang hoạt động",
+          "close_trades": "Những giao dịch đóng",
+          "table": {
+            "headings": {
+              "symbol": "Biểu tượng",
+              "ticket": "Ticket",
+              "time": "Thời gian",
+              "deal_type": "Loại giao dịch",
+              "volume": "Khối lượng",
+              "price": "Giá",
+              "sl": "S/L",
+              "tp": "T/P",
+              "price_position": "Price Position",
+              "profit": "Lợi nhuận"
+            },
+            "body": {
+              "empty": "Không có dữ liệu"
+            }
+          }
+        }
+      },
+      "client_statement": {
+        "title": "Báo cáo for  <1>{{firstName}}</1>",
+        "commission": "Hoa hồng",
+        "rebate": "Rebate",
+        "table": {
+          "headings": {
+            "symbol": "Biểu tượng",
+            "account": "Tài khoản",
+            "position_id": "ID vị thế",
+            "deal_id": "ID giao dịch",
+            "volume": "Khối lượng",
+            "type": "{{loại}}"
+          },
+          "body": {
+            "empty": "Không có dữ liệu"
+          }
+        }
+      },
+      "statement": {
+        "title": "Báo cáo",
+        "filter_by": "Lọc dữ liệu bằng",
+        "from_date": "Từ ngày",
+        "to_date": "Đến ngày",
+        "account_type": "Loại tài khoản",
+        "search": "Tìm kiếm",
+        "table": {
+          "headings": {
+            "name": "Tên",
+            "type": "Loại",
+            "email": "Email",
+            "ib_commission": "Hoa hồng IB",
+            "ib_repate": "IB Rebate"
+          },
+          "body": {
+            "empty": "Không có dữ liệu"
+          }
+        }
+      },
+      "structures": {
+        "title": "Cấu trúc",
+        "dedicated_links": {
+          "title": "Cấu trúc liên kết",
+          "table": {
+            "headings": {
+              "account_type": "Loại liên kết",
+              "approved": "Đã chấp nhận",
+              "register_demo": "Đăng ký Demo",
+              "register_live": "Đăng ký Live",
+              "register_ib": "Đăng ký IB"
+            }
+          },
+          "copied": "Sao chép hồ sơ"
+        },
+        "structure_details": {
+          "title": "Cấu trúc chi tiết",
+          "table": {
+            "headings": {
+              "account_type": "Loại tài khoản",
+              "total_repate": "Tổng Rebate",
+              "total_commission": "Tổng hoa hồng"
+            },
+            "body": {
+              "empty_members": "Không có dữ liệu"
+            }
+          }
+        },
+        "structure_members": {
+          "title": "Cấu trúc thành viên"
+        }
+      }
+    },
+    "internal_transfer": {
+      "title": "Chuyển tiền",
+      "transfer_to": "Chuyển sang",
+      "my_account": "Tài khoản của tôi",
+      "client_account": "Khách hàng của tôi",
+      "form": {
+        "platform": "Nền tảng",
+        "from_account": "Từ tài khoản",
+        "to_account": "Đến tài khoản",
+        "transfer_amount": "Số tiền chuyển",
+        "notes": "Ghi chú",
+        "cta": "Chuyển",
+        "success_message": "Tiền đã được chuyển thành công!"
+      }
+    },
+    "withdrawal": {
+      "form": {
+        "select_account": "Chọn tài khoản",
+        "amount": "Số tiền",
+        "note": "Ghi chú",
+        "cta": "Tiếp tục",
+        "success_message": "Yêu cầu rút tiền đã được thực hiện",
+        "card_number": "Số thẻ",
+        "wallet_id": "ID ví",
+        "select_bank": "Chọn Ngân hàng"
+      },
+      "select_gateway": "Chọn cổng",
+      "choose_method_to_withdrawal": "Chọn cổng rút tiền",
+      "title": "Rút tiền",
+      "notice_title": "Ghi chú quan trọng",
+      "noties1": "Accuindex, theo luật pháp quốc tế về chống tài trợ khủng bố và rửa tiền, không chấp nhận thanh toán từ bên thứ ba và thanh toán cho bên thứ ba không được thực hiện.",
+      "noties2": "Accuindex có thể yêu cầu tài liệu / thông tin bổ sung từ bạn để chứng minh tài khoản ngân hàng của bạn đứng tên bạn vì thanh toán của bên thứ ba không được phép.",
+      "noties3": "Tất cả các khoản rút tiền sẽ được hoàn trả lại nguồn tiền gửi ban đầu. Bất kỳ khoản lợi nhuận nào trên tài khoản của bạn phải được hoàn trả cho bạn thông qua chuyển khoản ngân hàng."
+    },
+    "ib_withdrawal": {
+      "choose_gateway": "Chọn cổng",
+      "title": "Rút tiền",
+      "note": {
+        "title": "Thông báo quan trọng",
+        "note_1": "Accuindex, theo luật pháp quốc tế về chống tài trợ khủng bố và rửa tiền, không chấp nhận thanh toán từ bên thứ ba và thanh toán cho bên thứ ba không được thực hiện.",
+        "note_2": "Accuindex có thể yêu cầu tài liệu / thông tin bổ sung từ bạn để chứng minh tài khoản ngân hàng của bạn đứng tên bạn vì thanh toán của bên thứ ba không được phép.",
+        "note_3": "Tất cả các khoản rút tiền sẽ được hoàn trả lại nguồn tiền gửi ban đầu. Bất kỳ khoản lợi nhuận nào trên tài khoản của bạn phải được hoàn trả cho bạn thông qua chuyển khoản ngân hàng."
+      }
+    },
+    "my_application": {
+      "go_back": "Hồ sơ",
+      "title": "Ứng dụng của tôi",
+      "description": "Đơn đăng ký tài khoản cá nhân - (Tiếng Anh)",
+      "agreement": "Thỏa thuận khách hàng Accuindex"
+    },
+    "new_account": {
+      "not_verified": "Tài khoản của bạn chưa được xác minh, Vui lòng  <2>Tải ID của bạn</2>.",
+      "title": "",
+      "go_back": "Các tài khoản",
+      "max_reached": "Bạn đã đạt đến tài khoản tối đa, yêu cầu tài khoản mới",
+      "form": {
+        "platform": "Nền tảng",
+        "metatader": "MetaTrader",
+        "account_type": "Loại tài khoản",
+        "loading": "Đang tải",
+        "currency": "Tiền tệ",
+        "us_dollar": "US Dollars",
+        "reason_text": "Lý do mở tài khoản bổ sung",
+        "balance": "Số dư",
+        "account_password": "Mật khẩu tài khoản giao dịch",
+        "uppercase": "Chữ viết hoa",
+        "lowercase": "Chữ viết thường",
+        "numbers": "Số",
+        "request_cta": "Yêu cầu",
+        "submit_cta": "Tạo tài khoản"
+      },
+      "title_live": "Tạo tài khoản trực tiếp",
+      "title_demo": "Tạo tài khoản thử nghiệm"
+    },
+    "partnership": {
+      "request": {
+        "title": "Ứng dụng IB",
+        "go_back": "Đối tác",
+        "form": {
+          "labels": {
+            "financial": "Bạn có bất kỳ Website / Blog thị trường tài chính nào mà sử dụng để quảng cáo không?*",
+            "reffered": "Bạn đã bao giờ giới thiệu khách hàng đến các nhà cung cấp khác chưa?*",
+            "acquire": "Làm thế nào để bạn có được khách hàng?*",
+            "countries": "Bạn hướng đến đối tượng ở quốc gia nào?*",
+            "expected_clients": "Bạn mong đợi bao nhiêu khách hàng được giới thiệu trong 12 tháng đầu tiên?*"
+          },
+          "cta": "Gửi"
+        }
+      },
+      "title": "Đối tác",
+      "no_partnership_message": "Bạn không có bất kỳ quan hệ đối tác nào, vui lòng nhấp vào bên dưới để yêu cầu quan hệ đối tác",
+      "requested_message": "Quan hệ đối tác đã được yêu cầu!",
+      "cta": "Quan hệ đối tác theo yêu cầu"
+    },
+    "platforms": {
+      "title": "Nền tảng giao dịch",
+      "desktop": {
+        "title": "Màn hình nền",
+        "metatader": "Metatrader",
+        "meta_4": {
+          "description": "__VALUE__",
+          "list": [
+            "list item 1"
+          ]
+        },
+        "meta_5": {
+          "description": "__VALUE__",
+          "list": [
+            "__VALUE__",
+            "__VALUE__"
+          ]
+        },
+        "mq": {
+          "list": [
+            "__VALUE__",
+            "__VALUE__"
+          ]
+        }
+      },
+      "download_windows": "Tải về Windows",
+      "mq": {
+        "title": "MQ Webtrader",
+        "description": "__VALUE__",
+        "cta": "Lunch MQ webtrader"
+      },
+      "mobile": {
+        "title": "Điện thoại",
+        "metatader": "MetaTrader",
+        "meta_4": {
+          "description": "__VALUE__",
+          "list": [
+            "__VALUE__",
+            "__VALUE__"
+          ]
+        },
+        "meta_5": {
+          "description": "__VALUE__",
+          "list": [
+            "__VALUE__",
+            "__VALUE__"
+          ]
+        }
+      }
+    },
+    "profile": {
+      "change_password": {
+        "title": "Thay đổi mật khẩu cổng thông tin",
+        "form": {
+          "currenct_password": "Mật khẩu hiện tại*",
+          "new_password": "Mật khẩu mới*",
+          "confirm_password": "Xác nhận mật khẩu mới*",
+          "cta": "Gửi",
+          "success_message": "Mật khẩu đã được đổi thành công!"
+        }
+      },
+      "settings": {
+        "title": "Cài đặt của tôi",
+        "go_back": "Hồ sơ",
+        "account": {
+          "label": "Cài đặt tài khoản",
+          "form": {
+            "label": "Tiêu đề",
+            "first_name": "Tên*",
+            "last_name": "Họ*",
+            "email": "Email*",
+            "phone_number": "Số điện thoại*",
+            "nationality": "Quốc tịch*",
+            "residence": "Quốc gia cư trú*",
+            "address": "Địa chỉ"
+          }
+        }
+      },
+      "my_docs": {
+        "title": "Tài liệu của tôi",
+        "description": "Sed ut perspiciatis unde omnis"
+      },
+      "my_application": {
+        "title": "Ứng dụng của tôi",
+        "description": "Sed ut perspiciatis unde omnis"
+      },
+      "activities": {
+        "title": "Các hoạt động",
+        "description": "Sed ut perspiciatis unde omnis"
+      }
+    },
+    "reports": {
+      "title": "Báo cáo giao dịch",
+      "filter_by": "Lọc bằng",
+      "form": {
+        "type": "Loại",
+        "account": "Tài khoản",
+        "date_from": "Từ ngày",
+        "date_to": "Đến ngày"
+      },
+      "table": {
+        "headers": {
+          "account": "Tài khoản",
+          "type": "Loại",
+          "amount": "Số tiền",
+          "gateway": "Cổng",
+          "date_created": "Đã tạo ngày",
+          "status": "Trạng thái"
+        },
+        "body": {
+          "no_data": "Bạn không có bất kỳ giao dịch nào cho bộ lọc này"
+        }
+      }
+    },
+    "my_documents": {
+      "title": "Tài liệu của tôi",
+      "cta": "Thêm tài liệu mới"
+    }
+  }

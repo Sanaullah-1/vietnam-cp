@@ -1,0 +1,99 @@
+.login-wrapper {
+
+    background-color: #f5f6fa;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+
+    >div:first-child {
+        background-image: url('../../../assets/images/login-background.png');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        h5 {
+            color: white;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 14px;
+            color: rgba($color: #fff, $alpha: 0.7);
+        }
+
+    }
+
+    >div:last-child {
+        align-self: center;
+        height: calc(100% - 12%);
+        width: calc(100% - 12%);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 50px;
+        box-shadow: 0 0 35px 0 rgba(185, 185, 185, 0.28);
+
+        >div {
+            min-width: 400px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .card-wrapper {
+        position: relative;
+
+        .change-lang {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: fit-content;
+
+            button {
+                flex: unset;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+    .login-wrapper {
+        grid-template-columns: 1fr;
+        height: calc(100vh - 100px);
+
+        >div:first-child {
+            display: none;
+        }
+
+        .card-wrapper {
+            position: unset;
+        }
+
+        >div:last-child {
+            width: 100%;
+            height: fit-content;
+            padding: 50px 20px;
+
+            >div {
+                min-width: 100%;
+            }
+        }
+
+        .card-wrapper {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+    }
+}

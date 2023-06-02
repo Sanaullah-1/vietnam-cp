@@ -1,0 +1,14 @@
+.profile-wrapper {
+    img {
+        cursor: pointer;
+    }
+
+    .row .card {
+        border: 1px solid transparent;
+        cursor: pointer;
+
+        &:hover {
+            border-color: $light;
+        }
+    }
+}

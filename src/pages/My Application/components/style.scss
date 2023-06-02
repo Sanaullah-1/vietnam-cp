@@ -1,0 +1,183 @@
+.application {
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+.hidden {
+  @media screen {
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+}
+.ref {
+  min-width: 9in;
+  .MuiDialogContent-root {
+    padding: 0px !important;
+  }
+}
+.a4Size {
+  max-width: 9in;
+  width: 100%;
+  margin: 0;
+  min-height: 11.7in;
+  line-height: 0.8;
+}
+.pdf-container {
+  font-family: 'Cairo';
+  min-width: 9in;
+
+  .logo-v2 {
+    width: 1314px;
+    height: auto;
+  }
+
+  .form-title {
+    padding: 50px 10px;
+    text-align: center;
+    font-family: 'Cairo';
+  }
+
+  .topBar-v2 {
+    width: 20%;
+    background-color: #244987;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 10px 80px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    h5 {
+      margin: 0px;
+      font-family: 'Cairo';
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+
+  .section-v2 {
+    margin: 0 50px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .title-v2 {
+    color: #0a4ab6;
+    font-family: 'Cairo';
+    font-weight: normal;
+    /* font-size: 13px; */
+  }
+  .dot {
+    height: 16px;
+    width: 16px;
+    //background-color: #0a4ab6;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #0a4ab6;
+    &.active {
+      background-color: #0a4ab6;
+    }
+  }
+  .border-b {
+    border-bottom: 2px solid #eee;
+    padding: 3px 10px 15px 10px;
+  }
+}
+.logo {
+  width: 200px;
+  height: auto;
+}
+h4 {
+  font-weight: bold;
+}
+.signature {
+  font-family: 'Bulgatti' !important;
+  font-size: 20px;
+}
+.topBar {
+  width: 100%;
+  background-color: #244987;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 0;
+  h5 {
+    margin: 0px;
+  }
+}
+.border-b {
+  border-bottom: 1px solid rgb(49, 49, 49);
+  padding: 3px 10px 0 10px;
+}
+.border-t {
+  border-top: 1px solid rgb(49, 49, 49);
+  padding: 3px 25px 0 25px;
+}
+.sign {
+  font-style: italic;
+  span {
+    color: #244987;
+    font-weight: bold;
+  }
+}
+.left {
+  text-align: left !important;
+}
+.rowC {
+  display: grid;
+  align-items: center;
+  padding: 0 10px 20px;
+}
+.col {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.yes {
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+}
+.no {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+}
+.row2 {
+  grid-template-columns: 100px auto 1px;
+}
+.row4 {
+  grid-template-columns: 100px auto 100px auto;
+}
+.row5 {
+  grid-template-columns: 100px auto 100px auto 100px 100px;
+}
+.row6 {
+  grid-template-columns: 100px auto 100px auto 100px auto;
+}
+.row7 {
+  grid-template-columns: 100px 40px 150px auto 160px 40px 160px 40px;
+}
+.rowGender {
+  grid-template-columns: 100px auto 100px auto;
+}
+.rowId {
+  grid-template-columns: 100px auto 45px auto 100px auto;
+}
+.rowFinancial {
+  grid-template-columns: 100px auto 140px auto;
+}
+.rowEmployment {
+  grid-template-columns: 180px auto 100px auto;
+}
+.rowJob {
+  grid-template-columns: 180px auto 100px auto;
+}
+.rowDecl {
+  grid-template-columns: 50px auto;
+}
+
+.f__indusrt_mrgn {
+  top: 24px;
+}
+.citizen_mrgn {
+  top: 8px;
+}

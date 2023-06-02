@@ -1,0 +1,40 @@
+.gateway-dropdown {
+    >button.dropdown-toggle {
+        background-color: white;
+        color: $dark;
+        display: block;
+        width: 100%;
+        text-align: start;
+        font-size: 18px;
+        font-weight: normal;
+        border: 1px solid #dee2e6;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+
+}
+
+.max-width {
+    max-width: 600px;
+}
+
+.banks-table {
+    max-width: fit-content;
+    margin: auto;
+
+
+    th {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .banks-table {
+        max-width: calc(100vw - (24px + 2rem));
+    }
+
+}

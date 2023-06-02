@@ -1,0 +1,63 @@
+@import "src/styles/variables";
+.portfolio-wrapper {
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  column-gap: 10px;
+  .total-funds {
+    span {
+      color: $light-gray;
+    }
+    div {
+      font-size: 32px;
+      font-weight: 900;
+      color: $primary;
+      span {
+        font-size: 20px;
+        color: rgba($color: $primary, $alpha: 0.5);
+        font-weight: 500;
+      }
+    }
+  }
+  .manager {
+    span {
+      color: $light-gray;
+      display: block;
+      margin-bottom: 5px;
+    }
+    div {
+      color: rgba($color: $primary, $alpha: 0.8);
+      font-weight: 500;
+      text-decoration: underline;
+    }
+  }
+  .journey-progress {
+    display: flex;
+    align-items: center;
+    .circle-progress {
+      width: 54px;
+      height: 54px;
+      .CircularProgressbar .CircularProgressbar-path {
+        stroke: $primary;
+      }
+      .CircularProgressbar-text {
+        fill: $primary;
+        font-size: 20px;
+        font-weight: 900;
+      }
+    }
+    > div:last-child {
+      display: flex;
+      flex-direction: column;
+      > div {
+        font-size: 18px;
+        font-weight: 600;
+        color: $primary;
+      }
+      span {
+        font-size: 12px;
+        font-weight: 500;
+        color: $light-gray;
+      }
+    }
+  }
+}

@@ -1,0 +1,709 @@
+{
+    "complete_profile": {
+      "title": "أكمل بيانات الحساب",
+      "sub_title": "حساب حقيقي",
+      "form": {
+        "labels": {
+          "title": "العنوان",
+          "dob": "تاريخ الميلاد",
+          "nationality": "الجنسية",
+          "addr_1": "العنوان 1",
+          "addr_2": "العنوان 2",
+          "lang": "اللغة المفضلة",
+          "city": "المدينة",
+          "postal": "الرمز البريدي",
+          "profession": "المهنة",
+          "employment": "الحالة الوظيفية",
+          "job": "عنوان الوظيفة",
+          "employer": "اسم صاحب العمل",
+          "income": "الدخل السنوي",
+          "funds_source": "مصدر الأموال",
+          "politically_member": "هل أنت أو أي فرد من أفراد عائلتك معرضًا سياسيًّا?",
+          "fatca": "فاتكا",
+          "fatca_decription": "فاتكا أو قانون الإمتثال الضريبي الأميركي هو قانون أميركي يوجب mauritius على جمع معلومات عن بعض الأشخاص الأميركيين من خلال حسابات أجنبية",
+          "usa_citizen": "هل أنت مواطن من الولايات المتحدة الأميريكية؟?",
+          "tax": "رقم التعريف الضريبي (إذا وجد)",
+          "work_relevant": "عملت لمدة عامين على الأقل في وظيفة ذات صلة مباشرة في الخدمات المالية"
+        },
+        "declarations": {
+          "title": "فور النقر على إرسال، أنت توافق على ما يلي:",
+          "list": [
+            "أنك قرأت ووافقت على جميع سياسات وشروط وأحكام أكيواندكس والإتفاقيات الموجودة على موقع الشركة <a href=\"https://www.accuindex.com\" target=\"_blank\">www.accuindex.com<a/>",
+            " أنك قرأت ووافقت على إتفاقية العميل من أكيواندكس والتي تتضمن سياسة تنفيذ الأوامر وسياسة تضارب المصالح,  <a href=\"https://exiniti.blob.core.windows.net/public/docs/privacy-policy_1607614241451.pdf\" target=\"_blank\"> privacy policy </a>, 3<sup>rd</sup> party disclosure policy and any other terms in the <a href=\"https://exiniti.blob.core.windows.net/public/docs/client-agrement_1607614230105.pdf\" target=\"_blank\">client agreement</a>.",
+            "تؤكد على عدم انتهاك أي أنظمة تخص بلدك عند التداول مع اكيواندكس.",
+            "اعتبار توقيعك الإلكتروني توقيعًا رسميًّا وقانونيًّا"
+          ]
+        },
+        "cta": "إرسال"
+      }
+    },
+    "trading_accounts": {
+      "table_headers": {
+        "account": "الحساب",
+        "leverage": "الرافعة المالية",
+        "equiti": "القيمة المالية",
+        "balance": "الرصيد",
+        "margin": "الهامش",
+        "credit": "المديونية",
+        "platforms": "المتصات",
+        "options": "الخيارات",
+        "action": "الأوامر"
+      },
+      "table_body": {
+        "no_demo_data": "لا تمتلك حساب تجريبي",
+        "webtrader": "التداول عبر الإنترنت",
+        "no_live_data": "لا تمتلك حساب تداول حقيقي",
+        "deposit": "الإيداع",
+        "change_leverage": "تغيير الرافعة المالية",
+        "total": "المجموع",
+        "copy_trading_account": "حساب نسخ التداول"
+      },
+      "title": "",
+      "title_live": "حساب حقيقي",
+      "title_demo": "حساب تجريبي",
+      "demo_cta": "حساب تجريبي",
+      "live_cta": "حساب حقيقي",
+      "selected_acc": "رقم الحساب",
+      "positions": {
+        "close_title": "الصفقات المغلقة",
+        "table_headers": {
+          "symbol": "الرمز",
+          "ticket": "التذكرة",
+          "time": "الوقت",
+          "deal": "نوع الصفقة",
+          "volume": "الكمية",
+          "price": "السعر",
+          "sl": "وقف الخسارة",
+          "tp": "جني الأرباح",
+          "profit": "الأرباح"
+        },
+        "table_body": {
+          "no_close_data": "لا تمتلك أي صفقات تداول مغلقة.",
+          "no_open_data": "لا تمتلك أي صفقات تداول مفتوحة",
+          "buy": "شراء"
+        },
+        "open_title": "الصفقات المفتوحة"
+      },
+      "recent_transactions": {
+        "title": "المعاملات الحديثة",
+        "table_headers": {
+          "account": "الحساب",
+          "type": "النوع",
+          "date": "تاريخ الإنشاء",
+          "transaction_id": "رقم المعاملة",
+          "mode": "الوضع",
+          "amount": "المبلغ",
+          "status": "الحالة"
+        },
+        "table_body": {
+          "no_data": "لا تمتلك أي معاملات حديثة"
+        }
+      }
+    },
+    "header": {
+      "ib_portal": "بوابة الوسيط المعرف",
+      "menu": {
+        "profile": "الحساب الشخصي",
+        "logout": "تسجيل خروج"
+      }
+    },
+    "sidebar": {
+      "dashboard": "لوحة التحكم",
+      "withdrawal": "السحب",
+      "internal_transfer": "التحويل الداخلي",
+      "partnership": "الشراكة",
+      "my_clients": "العملاء",
+      "partner_structures": "إتفاقيات الشركة",
+      "statement": "كشف حساب",
+      "accounts": "الحسابات",
+      "profile": "الحساب الشخصي",
+      "funds": "الأموال",
+      "deposit": "الإيداع",
+      "bank_accounts": "حساب بنكي",
+      "accupay": "Accupayبطاقة ",
+      "reports": "التقارير",
+      "platform": "المنصات",
+      "webtrader": "التداول عبر الإنترنت",
+      "logout": "تسجيل خروج"
+    },
+    "change_leverage": {
+      "title": "تغيير الرافعة المالية للحساب",
+      "form": {
+        "leverage": "الرافعة المالية",
+        "cta": "حفظ التغييرات"
+      }
+    },
+    "change_password": {
+      "title": "تغيير كلمة المرور",
+      "form": {
+        "new_password": "كلمة المرور الجديدة",
+        "confirm_password": " تأكيد كلمة المرور الجديدة",
+        "cta": "حفظ التغييرات"
+      }
+    },
+    "accupay": {
+      "title": "Accupay بطاقة",
+      "sub_title": "بطاقتي من Accupay",
+      "description": "لا يزال طلب الحصول على البطاقة قيد الموافقة عند الفريق المتخصص. ستتلقى رسالة تأكيد عبر بريدك الإلكتروني فور الموافقة عليها",
+      "cta": {
+        "request": "طلب الحصول",
+        "accupay_card": "Accupay بطاقة"
+      },
+      "already_requested": "تم تقديم طلب الحصول على بطاقة Accupay  !"
+    },
+    "activities": {
+      "title": "النشاطات",
+      "go_back": "الحساب الشخصي",
+      "table": {
+        "headers": {
+          "activity": "النشاط",
+          "date_time": "التاريخ/الوقت"
+        }
+      }
+    },
+    "forgot_password": {
+      "title": "أهلًا بك في غرفة المتداول من اكيواندكس !",
+      "sub-title": "غرفة المتداول هي أداة تتيح لك إنشاء حسابات تداول جديدة والوصول إلى الحسابات الحالية وإيداع الأموال أو سحبها وتنزيل أحدث برامج التداول وغيرها. إدارة حسابك الشخصي على بعد خطوة واحدة فقط.",
+      "heading": "هل نسيت كلمة المرور؟",
+      "description": "أدخل بريدك الإلكتروني وستتلقى رابط إعادة التعيين",
+      "form": {
+        "labels": {
+          "email": "البريد الإلكتروني"
+        },
+        "cta": "إرسال",
+        "success_message": "تم إرسال رابط إعادة تعيين كلمة المرور بنجاح!"
+      },
+      "remembred": "<0>هل تذكرت كلمة المرور الخاصة بك؟ <2>تسجيل دخول</2></0>"
+    },
+    "login": {
+      "title": "أهلًا بك في غرفة المتداول من اكيواندكس",
+      "sub-title": "غرفة المتداول هي أداة تتيح لك إنشاء حسابات تداول جديدة والوصول إلى الحسابات الحالية وإيداع الأموال أو سحبها وتنزيل أحدث برامج التداول وغيرها. إدارة حسابك الشخصي على بعد خطوة واحدة فقط..",
+      "heading": "أهلًا مجددًا!",
+      "description": "تسجيل دخول إلى حسابك",
+      "form": {
+        "labels": {
+          "email": "البريد الإلكتروني",
+          "password": "كلمة المرور",
+          "forgot_password": "هل نسيت كلمة المرور؟"
+        },
+        "cta": "تسجيل دخول",
+        "remember_me": "تذكر كلمة المرور"
+      },
+      "dont_have_account": "<0>لا تمتلك حسابًا؟ <2>افتح حسابًا حقيقيًا</2></0>"
+    },
+    "verify_pin": {
+      "title": "أهلًا بك في غرفة المتداول من اكيواندكس",
+      "sub-title": "غرفة المتداول هي أداة تتيح لك إنشاء حسابات تداول جديدة والوصول إلى الحسابات الحالية وإيداع الأموال أو سحبها وتنزيل أحدث برامج التداول وغيرها. إدارة حسابك الشخصي على بعد خطوة واحدة فقط.",
+      "heading": "رمز التحقق",
+      "description": "ادخل الرمز المرسل إليك",
+      "resend_code": "<0>لم تتلقى أي رمز؟ <2>إعادة إرسال الرمز</2></0>",
+      "cta": "تسجيل دخولي",
+      "success_message": "تم إعادة إرسال رمز التحقق بنجاح!"
+    },
+    "register": {
+      "title": "أهلًا بك في غرفة المتداول من اكيواندكس",
+      "sub-title": "غرفة المتداول هي أداة تتيح لك إنشاء حسابات تداول جديدة والوصول إلى الحسابات الحالية وإيداع الأموال أو سحبها وتنزيل أحدث برامج التداول وغيرها. إدارة حسابك الشخصي على بعد خطوة واحدة فقط.",
+      "heading": "سهلة للغاية، سجل الآن!",
+      "description": "اشترك في حساب اكيوانكدكس الحقيقي واستفد من أكثر أدوات التداول احترافية وآلاف الأدوات للتداول.",
+      "form": {
+        "labels": {
+          "firstName": "الإسم الأول",
+          "lastName": "الإسم الأخير",
+          "phone_number": "رقم الهاتف",
+          "email": "البريد الإلكتروني",
+          "password": "كلمة المرور",
+          "confirm_password": "إعادة كتابة كلمة المرور"
+        },
+        "agreement": "إنهاء التسجيل يعني الموافقة على <1>سياسة الخصوصية</1>",
+        "cta": "إرسال"
+      },
+      "already_have_account": "<0>هل تمتلك حسابًا مسبقًا؟ <2>تسجيل دخول</2></0>"
+    },
+    "reset_password": {
+      "title": "أهلًا بك في غرفة المتداول من اكيواندكس",
+      "sub-title": "غرفة المتداول هي أداة تتيح لك إنشاء حسابات تداول جديدة والوصول إلى الحسابات الحالية وإيداع الأموال أو سحبها وتنزيل أحدث برامج التداول وغيرها. إدارة حسابك الشخصي على بعد خطوة واحدة فقط.",
+      "heading": "إعادة تعيين كلمة المرور",
+      "description": "أدخل كلمة المرور الجديدة",
+      "form": {
+        "labels": {
+          "new_password": "كلمة المرور الجديدة",
+          "confirm_new_password": "تأكيد كلمة المرور الجديدة"
+        },
+        "cta": "إعادة ضبط",
+        "error_message": "هناك خطأ ما",
+        "success_message": "تم إعادة تعيين كلمة المرور الخاصة بك بنجاح! تسجيل الدخول..."
+      }
+    },
+    "bank_accounts": {
+      "title": "الحسابات البنكية",
+      "table": {
+        "headers": {
+          "holder_name": "إسم صاحب الحساب",
+          "bank_name": "المستفيد إسم البنك",
+          "currency": "العملة",
+          "operations": "العمليات"
+        },
+        "body": {
+          "no_data": "لا تمتلك أي حساب بنكي؟",
+          "update_cta": "تحديث"
+        }
+      },
+      "new_cta": "إضافة بنك جديد",
+      "go_back": "الحسابات البنكية",
+      "form": {
+        "labels": {
+          "holder_name": "إسم صاحب الحساب*",
+          "beneficiary_name": "المستفيد إسم البنك*",
+          "iban": "آيبان*",
+          "bank_address": "عنوان البنك*",
+          "currency": "العملة*",
+          "account_number": "رقم الحساب البنكي*",
+          "swift": "الرمز التعريفي للمصرف -سويفت*"
+        },
+        "actions": {
+          "update": "تحديث",
+          "submit": "إرسال"
+        }
+      }
+    },
+    "dashboard": {
+      "summary": {
+        "title": "ملخص الحساب",
+        "total_balance": "إجمالي الرصيد",
+        "total_credit": "إجمالي المديونية",
+        "total_equity": "إجمالي القيمة المالية",
+        "total_deposits": "إجمالي الإيداع",
+        "total_withdrawal": "إجمالي السحب"
+      },
+      "recent_activity": {
+        "title": "أحدث النشاطات",
+        "cta": "عرض المزيد"
+      },
+      "journey": {
+        "verified_message": "تم التحقق من حسابك. الرجاء تمويل الحساب لبدء التداول",
+        "non_verified_message": "لم يتم التحقق من حسابك، الرجاء تحميل هويتك",
+        "fund_cta": "تمويل الحساب",
+        "upload_cta": "تحميل المستندات"
+      },
+      "copy_trading": {
+        "title": "حساب نسخ التداول",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+        "cta": "بدء النسخ"
+      },
+      "live_accounts": {
+        "title": "حساب حقيقي",
+        "cta": "إنشاء حساب"
+      },
+      "demo_accounts": {
+        "title": "حساب تجريبي",
+        "cta": "إنشاء حساب"
+      }
+    },
+    "deposit": {
+      "forms": {
+        "select_account": "تحديد الحساب",
+        "amount": "المبلغ",
+        "cta": "اكمل",
+        "payment_cuurency": "عملة الدفع المستخدمة",
+        "description": "الوصف",
+        "account_payee": "Payee Account",
+        "card_number": "رقم البطاقة",
+        "payment_type": "اختر طريقة الدفع",
+        "converted_amount": "المبلغ المحول",
+        "notes": "ملاحظات",
+        "select_bank": "تحديد البنك",
+        "crypto_message_prefix": "جميع المعاملات تمت عبر",
+        "crypto_message_suffix": "الإنترنت"
+      },
+      "title": "قم بتمويل حسابك بسهولة وأمان",
+      "select_method": "تحديد طريقة الدفع",
+      "fund_with": "تمويل عبر",
+      "note": "يرجى الإنتباه عند استخدام طريقة دفع غير مستخدمة من قبلـ قد لا يتم تطبيق إيداعك على الفور في حسابك وقد يستغرق 24 ساعة. في بعض الحالات قد نطلب إثباتصا أن البطاقة أو الحساب باسمك."
+    },
+    "ib_portal": {
+      "summary": {
+        "title": "ملخص حساب الوسيط المعرف",
+        "total_live_clients": "إجمالي العملاء الحقيقيين",
+        "total_demo_clients": "إجمالي العملاء التجريبيين",
+        "total_balance": "إجمالي الرصيد",
+        "total_clients_deposits": "إجمالي ودائع العملاء",
+        "total_clients_withdrawal": "إجمالي ",
+        "total_withdrawal_profit": "إجمالي أرباح السحب"
+      },
+      "recent_clients": {
+        "title": "",
+        "title_live": "أحدث العملاء الحقيقيين",
+        "title_demo": "أحدث العملاء التجريبيين",
+        "demo": "تجريبي",
+        "live": "حقيقي",
+        "table": {
+          "headings": {
+            "name": "الإسم",
+            "mobile_number": "رقم الهاتق",
+            "email": "البريد الإلكتروني",
+            "status": "الحالة",
+            "date_time": "التاريخ/الوقت"
+          },
+          "empty": "",
+          "empty_live": "لا تمتلك أي عملاء حقيقيين",
+          "empty_demo": "لا تمتلك أي عملاء تجريبيين",
+          "body": {
+            "active": "ناشط",
+            "non_active": "غير ناشط"
+          }
+        }
+      },
+      "recent_transactions": {
+        "title": "",
+        "title_deposit": "عمليات الإيداع الحديثة",
+        "title_withdrawal": "عمليات السحب الحديثة",
+        "withdrawal": "السحب",
+        "deposits": "الإيداع",
+        "table": {
+          "heading": {
+            "account": "الحساب",
+            "transaction_id": "رقم المعاملة",
+            "mode": "الوضع",
+            "amount": "المبلغ",
+            "status": "الحالة",
+            "date": "تاريخ الإنشاء"
+          },
+          "body": {
+            "empty": "لا بيانات متوفرة"
+          }
+        }
+      },
+      "client_activity": {
+        "title": "",
+        "title_live": "نشاط العملاء الحقيقيين",
+        "title_demo": "نشاط العملاء التجريبيين",
+        "demo": "تجريبي",
+        "live": "حقيقي",
+        "filter_by": "تصنيف حسب",
+        "filter": {
+          "date_from": "من تاريخ",
+          "date_to": "إلى تاريخ",
+          "search": "بحث",
+          "all": "الكل",
+          "by_name": "حسب الإسم",
+          "by_email": "حسب البريد الإلكتروني"
+        },
+        "table": {
+          "headings": {
+            "name": "الإسم",
+            "mobile_number": "رقم الهاتف",
+            "email": "البريد الإلكتروني",
+            "status": "الحالة",
+            "date_time": "التاريخ/الوقت"
+          },
+          "body": {
+            "empty": "لا بيانات متوفرة"
+          }
+        },
+        "trading_activity": {
+          "title": "حساب تداول إلى",
+          "live_trades": "تداولات حقيقية",
+          "close_trades": "الصفقات المغلقة",
+          "table": {
+            "headings": {
+              "symbol": "الرمز",
+              "ticket": "التذكرة",
+              "time": "الوقت",
+              "deal_type": "نوع الصفقة",
+              "volume": "الكمية",
+              "price": "السعر",
+              "sl": "وقف الخسارة",
+              "tp": "جني الأرباح",
+              "price_position": "سعر الصفقة",
+              "profit": "الأرباح"
+            },
+            "body": {
+              "empty": "لا بيانات متوفرة"
+            }
+          }
+        }
+      },
+      "client_statement": {
+        "title": "كشف حساب <1>{{firstName}}</1>",
+        "commission": "عمولة",
+        "rebate": "خصم",
+        "table": {
+          "headings": {
+            "symbol": "الرمز",
+            "account": "الحساب",
+            "position_id": "معرّف المركز",
+            "deal_id": "معرّف الصفقة",
+            "volume": "الكمية",
+            "type": "{{type}}"
+          },
+          "body": {
+            "empty": "لا بيانات متوفرة"
+          }
+        }
+      },
+      "statement": {
+        "title": "كشف حساب",
+        "filter_by": "تصنيف حسب",
+        "from_date": "من تاريخ",
+        "to_date": "إلى تاريخ",
+        "account_type": "نوع الحساب",
+        "search": "بحث",
+        "table": {
+          "headings": {
+            "name": "الإسم",
+            "type": "النوع",
+            "email": "البريد الإلكتروني",
+            "ib_commission": "عمولة الوسيط المعرف",
+            "ib_repate": "خصومات الوسيط المعرف"
+          },
+          "body": {
+            "empty": "لا بيانات متوفرة"
+          }
+        }
+      },
+      "structures": {
+        "title": "الهيكل",
+        "dedicated_links": {
+          "title": "هيكل الروابط",
+          "table": {
+            "headings": {
+              "account_type": "نوع الرابط",
+              "approved": "الموافقة",
+              "register_demo": "تسجيل تجريبي",
+              "register_live": "تسجيل حقيقي",
+              "register_ib": "تسجيل الوسيط المعرف"
+            }
+          },
+          "copied": "تم نسخه في الحافظة"
+        },
+        "structure_details": {
+          "title": "تفاصيل الهيكل",
+          "table": {
+            "headings": {
+              "account_type": "نوع الحساب",
+              "total_repate": "إجمالي التكرار",
+              "total_commission": "إجمالي العمولة"
+            },
+            "body": {
+              "empty_members": "لا بيانات متوفرة"
+            }
+          }
+        },
+        "structure_members": {
+          "title": "أعضاء الهيكل"
+        }
+      }
+    },
+    "internal_transfer": {
+      "title": "نقل الأموال",
+      "transfer_to": "تحويل إلى",
+      "my_account": "حسابي الشخصي",
+      "client_account": "حساب العميل",
+      "form": {
+        "platform": "المنصة",
+        "from_account": "من حساب",
+        "to_account": "إلى حساب",
+        "transfer_amount": "تحويل المبلغ",
+        "notes": "ملاحظات",
+        "cta": "تحويل",
+        "success_message": "تم التحويل بنجاح"
+      }
+    },
+    "withdrawal": {
+      "form": {
+        "select_account": "تحديد الحساب",
+        "amount": "المبلغ",
+        "note": "ملاحظة",
+        "cta": "اكمل",
+        "success_message": "تم إنشاء طلب السحب",
+        "card_number": "رقم البطاقة",
+        "wallet_id": "معرّف المحفظة",
+        "select_bank": "تحديد البنك"
+      },
+      "select_gateway": "تحديد بوابة",
+      "choose_method_to_withdrawal": "اختر طريقة السحب",
+      "title": "السحب",
+      "notice_title": "ملاحظات مهمة",
+      "noties1": "وفقًا للقوانين الدولية المتعلقة بمكافحة تمويل الإرهاب وغسل الأموالـ لا تقبل شركة اكيواندكس مدفوعات من طرف ثالث ولا يتم تنفيذها.",
+      "noties2": "قد تتطلب شركة اكيواندكس معلومات ومستندات إضافية للتأكد من حسابك المصرفي .",
+      "noties3": "جميع عمليات السحب تتم إعادتها إلى مصادر التمويل الأصلية، وأي أرباح تُعاد إلى حسابك عن طريق التحويل المصرفي."
+    },
+    "ib_withdrawal": {
+      "choose_gateway": "تحديد بوابة",
+      "title": "الإيداع",
+      "note": {
+        "title": "ملاحظات مهمة",
+        "note_1": "وفقًا للقوانين الدولية المتعلقة بمكافحة تمويل الإرهاب وغسل الأموالـ لا تقبل شركة اكيواندكس مدفوعات من طرف ثالث ولا يتم تنفيذها",
+        "note_2": "قد تتطلب شركة اكيواندكس معلومات ومستندات إضافية للتأكد من حسابك المصرفي .",
+        "note_3": "جميع عمليات السحب تتم إعادتها إلى مصادر التمويل الأصلية، وأي أرباح تُعاد إلى حسابك عن طريق التحويل المصرفي."
+      }
+    },
+    "my_application": {
+      "go_back": "الحساب الشخصي",
+      "title": "الطلبات الخاصة بي",
+      "description": "Individual Account Application - (English)",
+      "agreement": "إتفاقية عميل من اكيواندكس"
+    },
+    "new_account": {
+      "not_verified": "لم يتم التحقق من حسابك الرجاء <2>تحميل الهوية الشخصية</2>.",
+      "title": "",
+      "go_back": "الحسابات",
+      "max_reached": "لقد وصلت إلى الحد الأقصى من الحسابات، اطلب حسابًا جديدًا",
+      "form": {
+        "platform": "المنصة",
+        "metatader": "التداول عبر الإنترنت",
+        "account_type": "نوع الحساب",
+        "loading": "تحميل",
+        "currency": "العملة",
+        "us_dollar": "الدولار الأميركي",
+        "reason_text": "سبب طلب فتح حساب إضافي",
+        "balance": "الرصيد",
+        "account_password": "كلمة مرور حساب التداول",
+        "uppercase": "أحرف كبيرة",
+        "lowercase": "أحرف صغيرة",
+        "numbers": "أرقام",
+        "request_cta": "طلب",
+        "submit_cta": "إنشاء حساب"
+      },
+      "title_live": "إنشاء حساب حقيقي",
+      "title_demo": "إنشاء حساب تجريبي"
+    },
+    "partnership": {
+      "request": {
+        "title": "طلب الوسيط المعرف",
+        "go_back": "الشراكة",
+        "form": {
+          "labels": {
+            "financial": "هل تمتلك أي موقع/مدونة تُعنى بالأسواق المالية وتنوي استخدامها؟*",
+            "reffered": "هل قمت بتحويل العملاء إلى مزودين آخرين؟*",
+            "acquire": "كيف تحصل على العملاء؟*",
+            "countries": "البلدان المقصودة",
+            "expected_clients": "كم عدد العملاء الذين تتوقع الحصول عليهم في أو 12 شهرًا؟*"
+          },
+          "cta": "إرسال"
+        }
+      },
+      "title": "الشراكة",
+      "no_partnership_message": "إذا كنت لا تمتلك أي شراكة، انقر أدناه لتقديم طلب شراكة",
+      "requested_message": "تم إرسال طلب الشراكة بنجاح",
+      "cta": "طلب شراكة"
+    },
+    "platforms": {
+      "title": "منصات التداول",
+      "desktop": {
+        "title": "حاسوب",
+        "metatader": "ميتاتريدر",
+        "meta_4": {
+          "description": "__القيمة__",
+          "list": [
+            "قائمة العناصر 1"
+          ]
+        },
+        "meta_5": {
+          "description": "__القيمة__",
+          "list": [
+            "__القيمة__",
+            "__القيمة__"
+          ]
+        },
+        "mq": {
+          "list": [
+            "__القيمة__",
+            "__القيمة__"
+          ]
+        }
+      },
+      "download_windows": "التحميل على windows",
+      "mq": {
+        "title": "التداول عبر الإنترنت MQ",
+        "description": "__القيمة__",
+        "cta": "إطلاق MQ webtrader"
+      },
+      "mobile": {
+        "title": "الهاتف",
+        "metatader": "ميتاتريدر",
+        "meta_4": {
+          "description": "__القيمة__",
+          "list": [
+            "__القيمة__",
+            "__القيمة__"
+          ]
+        },
+        "meta_5": {
+          "description": "__القيمة__",
+          "list": [
+            "__القيمة__",
+            "__القيمة__"
+          ]
+        }
+      }
+    },
+    "profile": {
+      "change_password": {
+        "title": "تغيير كلمة مرور البوابة",
+        "form": {
+          "currenct_password": "كلمة المرور الحالية*",
+          "new_password": "كلمة المرور الجديدة*",
+          "confirm_password": "تأكيد كلمة المرور الجديدة*",
+          "cta": "إرسال",
+          "success_message": "تم تغيير كلمة المرور بنجاح"
+        }
+      },
+      "settings": {
+        "title": "الإعدادات",
+        "go_back": "الحساب الشخصي",
+        "account": {
+          "label": "إعدادات الحساب",
+          "form": {
+            "label": "العنوان",
+            "first_name": "الإسم الأول*",
+            "last_name": "الإسم الأخير*",
+            "email": "البريد الإبكتروني*",
+            "phone_number": "رقم الهاتف*",
+            "nationality": "الجنسية*",
+            "residence": "بلد الإقامة*",
+            "address": "العنوان"
+          }
+        }
+      },
+      "my_docs": {
+        "title": "المستندات الخاصة بي",
+        "description": "Sed ut perspiciatis unde omnis"
+      },
+      "my_application": {
+        "title": "الطلبات الخاصة بي",
+        "description": "Sed ut perspiciatis unde omnis"
+      },
+      "activities": {
+        "title": "النشاطات",
+        "description": "Sed ut perspiciatis unde omnis"
+      }
+    },
+    "reports": {
+      "title": "تقرير المعاملات",
+      "filter_by": "تصنيف حسب",
+      "form": {
+        "type": "النوع",
+        "account": "الحساب",
+        "date_from": "من تاريخ",
+        "date_to": "إلى تاريخ"
+      },
+      "table": {
+        "headers": {
+          "account": "الحساب",
+          "type": "النوع",
+          "amount": "المبلغ",
+          "gateway": "البوابة",
+          "date_created": "تاريخ الإنشاء",
+          "status": "الحالة"
+        },
+        "body": {
+          "no_data": "ليس لديك أي معاملة لهذا التصنيف"
+        }
+      }
+    },
+    "my_documents": {
+      "title": "المستندات الخاصة بي",
+      "cta": "إضافة مستند جديد "
+    }
+  }

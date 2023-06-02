@@ -1,0 +1,791 @@
+{
+  "complete_profile": {
+    "title": "完善您的个人资料",
+    "sub_title": "实名认证账号",
+    "form": {
+      "labels": {
+        "title": "称谓",
+        "dob": "出生日期",
+        "nationality": "国籍",
+        "addr_1": "地址 1",
+        "addr_2": "地址 2",
+        "lang": "首选语言",
+        "city": "城市",
+        "postal": "邮编/邮政编码",
+        "profession": "职业",
+        "employment": "就业状况",
+        "job": "职务",
+        "employer": "雇主名称",
+        "income": "年收入",
+        "funds_source": "资金来源",
+        "politically_member": "您或您的任何家庭成员是否为政治公众人物 ?",
+        "fatca": "FATCA",
+        "fatca_decription": "FATCA是美国法律，意味着毛里求斯必须收集在外国账户中使用的美国纳税居民的信息.",
+        "usa_citizen": "您是否是美国公民?",
+        "tax": "纳税号别号 (如适用)",
+        "work_relevant": "我在金融服务行业内至少拥有2年直接相关职位的工作经验"
+      },
+      "declarations": {
+        "title": "点击提交按钮，即表示您确认并同意以下内容:",
+        "list": [
+          "您已阅读、理解、确认并同意Accuindex政策, 条约&条款并且客户协议书在公司网站上 <a href=\"https://www.accuindex.com\" target=\"_blank\">www.accuindex.com<a/>",
+          " 您已阅读、理解并同意Accuindex的客户协议，其中包括执行订单政策、利益冲突政策,  <a href=\"https://exiniti.blob.core.windows.net/public/docs/privacy-policy_1607614241451.pdf\" target=\"_blank\"> privacy policy </a>, 3<sup>rd</sup> party disclosure policy and any other terms in the <a href=\"https://exiniti.blob.core.windows.net/public/docs/client-agrement_1607614230105.pdf\" target=\"_blank\">client agreement</a>.",
+          "您确认在与Accuindex交易中不违反您所在国家或地区的任何法规.",
+          "您的电子签名将被视为合法和正式签名"
+        ]
+      },
+      "cta": "提交"
+    }
+  },
+  "trading_accounts": {
+    "table_headers": {
+      "account": "账号",
+      "leverage": "杠杆",
+      "equiti": "净值",
+      "balance": "余额",
+      "margin": "保证金",
+      "credit": "信用额度",
+      "platforms": "平台",
+      "options": "选项",
+      "action": "操作"
+    },
+    "table_body": {
+      "no_demo_data": "您没有模拟交易账户",
+      "webtrader": "网页版交易",
+      "no_live_data": "你没有真实交易账户",
+      "deposit": "存款",
+      "change_leverage": "更改杠杆比例",
+      "total": "总计",
+      "copy_trading_account": "复制交易账户"
+    },
+    "title": "",
+    "title_live": "真实账户",
+    "title_demo": "模拟账户",
+    "demo_cta": "模拟账户",
+    "live_cta": "真实账户",
+    "selected_acc": "账户",
+    "positions": {
+      "close_title": "已平仓交易",
+      "table_headers": {
+        "symbol": "产品",
+        "ticket": "交易编号",
+        "time": "交易时间",
+        "deal": "交易类型",
+        "volume": "交易手数",
+        "price": "交易价格",
+        "sl": "止损",
+        "tp": "止盈",
+        "profit": "交易盈利"
+      },
+      "table_body": {
+        "no_close_data": "You haven't have any closed position.",
+        "no_open_data": "您还没有任何未平仓的交易.",
+        "buy": "买入"
+      },
+      "open_title": "未平仓交易"
+    },
+    "recent_transactions": {
+      "title": "最近交易",
+      "table_headers": {
+        "account": "账户",
+        "type": "类型",
+        "date": "创建日期",
+        "transaction_id": "交易 ID",
+        "mode": "模式",
+        "amount": "金额",
+        "status": "状态"
+      },
+      "table_body": {
+        "no_data": "您没有任何最近的交易"
+      }
+    }
+  },
+  "header": {
+    "ib_portal": "IB 页面",
+    "menu": {
+      "profile": "个人资料",
+      "logout": "注销"
+    }
+  },
+  "sidebar": {
+    "dashboard": "仪表盘",
+    "withdrawal": "提款",
+    "internal_transfer": "内部转账",
+    "partnership": "合作伙伴",
+    "my_clients": "我的客户",
+    "partner_structures": "合作伙伴机构",
+    "statement": "报表",
+    "accounts": "账户",
+    "profile": "个人资料",
+    "funds": "资金",
+    "deposit": "存款",
+    "bank_accounts": "银行账户",
+    "accupay": "Accupay",
+    "reports": "报告",
+    "platform": "平台",
+    "webtrader": "网页交易员",
+    "logout": "注销"
+  },
+  "change_leverage": {
+    "title": "更改账户杠杆",
+    "form": {
+      "leverage": "杠杆",
+      "cta": "保存更改"
+    }
+  },
+  "change_password": {
+    "title": "更改账户密码",
+    "form": {
+      "new_password": "新密码",
+      "confirm_password": " 确认新密码",
+      "cta": "保存更改"
+    }
+  },
+  "accupay": {
+    "title": "Accupay 卡",
+    "sub_title": "我的卡",
+    "description": "您的卡申请仍在专业团队审核中。一旦卡申请被批准，您将收到一封确认电子邮件.",
+    "cta": {
+      "request": "申请",
+      "accupay_card": "Accupay 卡"
+    },
+    "already_requested": "Accupay 卡已申请!"
+  },
+  "activities": {
+    "title": "活动",
+    "go_back": "返回个人资料",
+    "table": {
+      "headers": {
+        "activity": "活动",
+        "date_time": "日期/时间"
+      }
+    }
+  },
+  "forgot_password": {
+    "title": "欢迎来到Accuindex交易室!",
+    "sub-title": "交易室是一个非常好用的工具，您可以在这里创建新的交易账户，访问现有的账户，存款或取款，下载最新的交易软件等等。您的个人账户管理系统只有一个步骤之遥.",
+    "heading": "忘记密码?",
+    "description": "请输入您的电子邮件，然后您将收到重置链接",
+    "form": {
+      "labels": {
+        "email": "电子邮件"
+      },
+      "cta": "发送",
+      "success_message": "重置密码链接已成功发送!"
+    },
+    "remembred": "<0>记得密码了吗? <2>登录</2></0>"
+  },
+  "login": {
+    "title": "欢迎来到Accuindex交易室!",
+    "sub-title": "交易室是一个非常好用的工具，您可以在这里创建新的交易账户，访问现有的账户，存款或取款，下载最新的交易软件等等。您的个人账户管理系统只有一个步骤之遥.",
+    "heading": "欢迎回来!",
+    "description": "登陆您的账户",
+    "form": {
+      "labels": {
+        "email": "电子邮件",
+        "password": "密码",
+        "forgot_password": "忘记密码?"
+      },
+      "cta": "登录",
+      "remember_me": "记住我"
+    },
+    "dont_have_account": "<0>没有账号? <2>申请实盘账户</2></0>"
+  },
+  "verify_pin": {
+    "title": "Welcome to Accuindex Trader`s Room!",
+    "sub-title": "交易室是一个非常好用的工具，您可以在这里创建新的交易账户，访问现有的账户，存款或取款，下载最新的交易软件等等。您的个人账户管理系统只有一个步骤之遥.",
+    "heading": "验证码",
+    "description": "请输入发送到您邮箱的验证码",
+    "resend_code": "<0>没有收到验证码？ <2>重新发送</2></0>",
+    "cta": "注册",
+    "success_message": "验证码验证成功!"
+  },
+  "register": {
+    "title": "欢迎来到Accuindex交易室!",
+    "sub-title": "Trader’s Room是一个优秀的工具，允许您创建新的交易账户，访问现有的账户，存取或提取资金，下载最新的交易软件等等。您的个人账户管理系统只需一步之遥.",
+    "heading": "现在注册，简单方便!",
+    "description": "注册Accuindex Live账户，并利用具有竞争力的佣金、专业的交易工具和数以千计的交易工具.",
+    "form": {
+      "labels": {
+        "firstName": "名字",
+        "lastName": "姓氏",
+        "phone_number": "电话号码",
+        "email": "电子邮件地址",
+        "password": "密码",
+        "confirm_password": "确认密码"
+      },
+      "agreement": "注册即表示您同意我们的 <1>隐私政策</1>",
+      "cta": "Submit"
+    },
+    "already_have_account": "<0>已经有账户了? <2>登录</2></0>"
+  },
+  "reset_password": {
+    "title": "欢迎来到Accuindex交易平台!",
+    "sub-title": "Trader’s Room是一个优秀的工具，允许您创建新的交易账户，访问现有的账户，存取或提取资金，下载最新的交易软件等等。您的个人账户管理系统只需一步之遥.",
+    "heading": "重置密码",
+    "description": "输入新密码",
+    "form": {
+      "labels": {
+        "new_password": "新密码",
+        "confirm_new_password": "确认新密码"
+      },
+      "cta": "重置",
+      "error_message": "出了点问题!",
+      "success_message": "您的密码已成功重置！正在为您重定向到登录页面..."
+    }
+  },
+  "bank_accounts": {
+    "title": "银行账户",
+    "table": {
+      "headers": {
+        "holder_name": "账户持有人姓名",
+        "bank_name": "收款银行名称",
+        "currency": "货币",
+        "operations": "操作"
+      },
+      "body": {
+        "no_data": "您没有任何银行账户",
+        "update_cta": "更新"
+      }
+    },
+    "new_cta": "添加新的银行账户",
+    "go_back": "返回银行账户",
+    "form": {
+      "labels": {
+        "holder_name": "账户持有人姓名*",
+        "beneficiary_name": "收款银行名称*",
+        "iban": "Iban*",
+        "bank_address": "收款银行地址*",
+        "currency": "货币*",
+        "account_number": "银行账户号码*",
+        "swift": "银行国际代码*"
+      },
+      "actions": {
+        "update": "更新",
+        "submit": "提交"
+      }
+    }
+  },
+  "dashboard": {
+    "summary": {
+      "title": "账户摘要",
+      "total_balance": "总余额",
+      "total_credit": "总信用额度",
+      "total_equity": "总权益",
+      "total_deposits": "总存款",
+      "total_withdrawal": "总取款"
+    },
+    "recent_activity": {
+      "title": "最近活动",
+      "cta": "查看更多"
+    },
+    "journey": {
+      "verified_message": "您的账户现在已验证，请存入资金开始交易.",
+      "non_verified_message": "您的账户未经过验证，请上传您的身份证件",
+      "fund_cta": "存款",
+      "upload_cta": "上传证件"
+    },
+    "copy_trading": {
+      "title": "跟单交易账户",
+      "description": "复制专业交易员的交易，并观察您的利润的增长。",
+      "cta": "开始跟单"
+    },
+    "live_accounts": {
+      "title": "真实账户",
+      "cta": "创建账户"
+    },
+    "demo_accounts": {
+      "title": "模拟账户",
+      "cta": "创建账户"
+    }
+  },
+  "deposit": {
+    "forms": {
+      "select_account": "选择交易账户",
+      "amount": "USD",
+      "cta": "继续",
+      "payment_cuurency": "支付货币",
+      "description": "描述",
+      "account_payee": "收款账户",
+      "card_number": "卡号",
+      "payment_type": "选择支付方式",
+      "converted_amount": "兑换后金额",
+      "notes": "备注",
+      "select_bank": "选择银行",
+      "crypto_message_prefix": "所有的交易都是在",
+      "crypto_message_suffix": "网络上完成的"
+    },
+    "title": "轻松安全地入金到您的账号",
+    "select_method": "选择支付方式",
+    "fund_with": "入金于",
+    "note": "请备注如果您在用未曾使用的新的支付方式, 您的存款可能不会立即存入您的帐户，最多可能需要 24 小时才能审核和处理。在某些情况下，我们可能会要求您提供卡或付款帐户在您名下的证明"
+  },
+  "ib_portal": {
+    "summary": {
+      "title": "IB账户摘要",
+      "total_live_clients": "总实盘客户数",
+      "total_demo_clients": "总模拟盘客户数",
+      "total_balance": "总余额",
+      "total_clients_deposits": "总客户存款",
+      "total_clients_withdrawal": "总客户提款",
+      "total_withdrawal_profit": "总提款利润"
+    },
+    "recent_clients": {
+      "title": "",
+      "title_live": "最近实盘客户",
+      "title_demo": "最近模拟盘客户",
+      "demo": "模拟",
+      "live": "实盘",
+      "table": {
+        "headings": {
+          "name": "姓名",
+          "mobile_number": "手机号码",
+          "email": "电子邮件",
+          "status": "状态",
+          "date_time": "日期/时间"
+        },
+        "empty": "",
+        "empty_live": "您还没有任何实盘客户.",
+        "empty_demo": "您还没有任何模拟盘客户.",
+        "body": {
+          "active": "已激活",
+          "non_active": "未激活"
+        }
+      }
+    },
+    "recent_transactions": {
+      "title": "",
+      "title_deposit": "最近提款",
+      "title_withdrawal": "最近提款",
+      "withdrawal": "提款",
+      "deposits": "存款",
+      "table": {
+        "heading": {
+          "account": "账号",
+          "transaction_id": "交易ID",
+          "mode": "方式",
+          "amount": "金额",
+          "status": "状态",
+          "date": "创建日期"
+        },
+        "body": {
+          "empty": "无数据"
+        }
+      }
+    },
+     "client_activity": {
+      "title": "",
+      "title_live": "实盘客户活动",
+      "title_demo": "模拟盘客户活动",
+      "demo": "模拟",
+      "live": "实盘",
+      "filter_by": "筛选",
+      "filter": {
+        "date_from": "起始日期",
+        "date_to": "结束日期",
+        "search": "搜索",
+        "all": "全部",
+        "by_name": "按姓名",
+        "by_email": "按电子邮件"
+      },
+      "table": {
+        "headings": {
+          "name": "姓名",
+          "mobile_number": "手机号码r",
+          "email": "邮件",
+          "status": "状态",
+          "date_time": "日期/时间"
+        },
+        "body": {
+          "empty": "没有数据"
+        }
+      },
+      "trading_activity": {
+        "title": "交易账户r",
+        "live_trades": "实时交易",
+        "close_trades": "已平仓交易",
+        "table": {
+          "headings": {
+            "symbol": "交易品种",
+            "ticket": "订单编号",
+            "time": "交易时间",
+            "deal_type": "交易类型",
+            "volume": "交易量",
+            "price": "交易价格",
+            "sl": "止损价格",
+            "tp": "止盈价格",
+            "price_position": "仓位价格",
+            "profit": "利润"
+          },
+          "body": {
+            "empty": "无数据"
+          }
+        }
+      }
+    },
+    "client_statement": {
+      "title": "Statement for <1>{{firstName}}</1>账户报表",
+      "commission": "佣金",
+      "rebate": "返佣",
+      "table": {
+        "headings": {
+          "symbol": "交易品种",
+          "account": "交易账户",
+          "position_id": "持仓编号",
+          "deal_id": "订单编号",
+          "volume": "交易量",
+          "type": "{{type}}"
+        },
+        "body": {
+          "empty": "无数据"
+        }
+      }
+    },
+    "statement": {
+      "title": "报表",
+      "filter_by": "筛选条件",
+      "from_date": "开始日期",
+      "to_date": "结束日期",
+      "account_type": "账户类型",
+      "search": "搜索",
+      "table": {
+        "headings": {
+          "name": "姓名",
+          "type": "类型",
+          "email": "邮件",
+          "ib_commission": "代理手续费",
+          "ib_repate": "代理返佣"
+        },
+        "body": {
+          "empty": "无数据"
+        }
+      }
+    },
+    "structures": {
+      "title": "会员结构",
+      "dedicated_links": {
+        "title": "会员结构专属链接",
+        "table": {
+          "headings": {
+            "account_type": "链接类型",
+            "approved": "已批准",
+            "register_demo": "注册模拟账户",
+            "register_live": "注册真实账户",
+            "register_ib": "注册IB账户"
+          }
+        },
+        "copied": "已复制到剪贴板"
+      },
+      "structure_details": {
+        "title": "组织架构详情",
+        "table": {
+          "headings": {
+            "account_type": "账户类型",
+            "total_repate": "总返佣",
+            "total_commission": "总手续费"
+          },
+          "body": {
+            "empty_members": "无数据"
+          }
+        }
+      },
+      "structure_members": {
+        "title": "会员结构"
+      }
+    }
+  },
+  "internal_transfer": {
+    "title": "资金转移",
+    "transfer_to": "转移至",
+    "my_account": "我的账户",
+    "client_account": "客户账户",
+    "form": {
+      "platform": "平台",
+      "from_account": "转出账户",
+      "to_account": "转入账户",
+      "transfer_amount": "转移金额",
+      "notes": "备注",
+      "cta": "转移",
+      "success_message": "资金转移成功！"
+    }
+  },
+  "withdrawal": {
+    "form": {
+      "select_account": "选择账户",
+      "amount": "金额",
+      "note": "备注",
+      "cta": "继续",
+      "success_message": "出金请求已提交",
+      "card_number": "卡号",
+      "wallet_id": "钱包 ID",
+      "select_bank": "选择银行"
+    },
+    "select_gateway": "选择支付通道",
+    "choose_method_to_withdrawal": "选择出金通道",
+    "title": "出金",
+    "notice_title": "重要提示",
+    "noties1": "根据打击恐怖融资和洗钱的国际法规，Accuindex不接受第三方付款，也不进行第三方付款。",
+    "noties2": "Accuindex可能需要您提供额外的文件/信息，以证明您的银行账户是以您的名义持有的，因为不允许进行第三方付款。",
+    "noties3": "所有提款将退还到原始资金来源。您账户上的任何利润都必须通过银行转账退回给您。"
+  },
+  "ib_withdrawal": {
+    "choose_gateway": "选择支付通道",
+    "title": "出金",
+    "note": {
+      "title": "重要提示",
+      "note_1": "根据打击恐怖融资和洗钱的国际法规，Accuindex不接受第三方付款，也不进行第三方付款。",
+      "note_2": "Accuindex可能需要您提供额外的文件/信息，以证明您的银行账户是以您的名义持有的，因为不允许进行第三方付款。",
+      "note_3": "所有提款将退还到原始资金来源。您账户上的任何利润都必须通过银行转账退回给您。."
+    }
+  },
+  "my_application": {
+    "go_back": "个人资料",
+    "title": "我的申请s",
+    "description": "个人账户申请 - (英语)",
+    "agreement": "Accuindex客户协议"
+  },
+  "new_account": {
+    "not_verified": "您的账户未通过验证，请<2>上传您的身份证件</2>。",
+    "title": "",
+    "go_back": "账户",
+    "max_reached": "您已达到最大账户数量，请申请新账户",
+    "form": {
+      "platform": "平台",
+      "metatader": "MetaTrader",
+      "account_type": "账户类型",
+      "loading": "加载中",
+      "currency": "货币",
+      "us_dollar": "美元",
+      "reason_text": "开立新账户的原因",
+      "balance": "余额",
+      "account_password": "交易账户密码",
+      "uppercase": "大写字母",
+      "lowercase": "小写字母",
+      "numbers": "数字",
+      "request_cta": "申请",
+      "submit_cta": "创建账户"
+    },
+    "title_live": "创建真实账户",
+    "title_demo": "创建模拟账户"
+  },
+  "partnership": {
+    "request": {
+      "title": "IB 申请",
+      "go_back": "合作伙伴",
+      "form": {
+        "labels": {
+          "financial": "您是否打算在任何金融市场网站/博客上进行推广？*",
+          "reffered": "您是否曾将客户介绍给其他供应商?*",
+          "acquire": "您如何获得客户?*",
+          "countries": "意向获取客户的国家*",
+          "expected_clients": "您在首个12个月内预计引入多少客户?*"
+        },
+        "cta": "提交"
+      }
+    },
+    "title": "合作伙伴",
+    "no_partnership_message": "您没有任何合作伙伴，请单击下面请求合作伙伴",
+    "requested_message": "合作伙伴已请求!",
+    "cta": "请求合作伙伴"
+  },
+  "platformsOld": {
+    "title": "交易平台",
+    "desktop": {
+      "title": "桌面版",
+      "metatader": "Metatrader",
+      "meta_4": {
+        "description": "__VALUE__",
+        "list": [
+          "列表项 1"
+        ]
+      },
+      "meta_5": {
+        "description": "__VALUE__",
+        "list": [
+          "__VALUE__",
+          "__VALUE__"
+        ]
+      },
+      "mq": {
+        "list": [
+          "__VALUE__",
+          "__VALUE__"
+        ]
+      }
+    },
+    "download_windows": "Windows下载",
+    "mq": {
+      "title": "MQ Webtrader",
+      "description": "__VALUE__",
+      "cta": "启动 MQ webtrader"
+    },
+    "mobile": {
+      "title": "移动端",
+      "metatader": "MetaTrader",
+      "meta_4": {
+        "description": "__VALUE__",
+        "list": [
+          "__VALUE__",
+          "__VALUE__"
+        ]
+      },
+      "meta_5": {
+        "description": "__VALUE__",
+        "list": [
+          "__VALUE__",
+          "__VALUE__"
+        ]
+      }
+    }
+  },
+  "platforms": {
+    "title": "交易平台",
+    "desktop": {
+      "title": "桌面版",
+      "metatader": "MetaTrader",
+      "meta_4": {
+        "description": "免费下载，以便利用它与Accuindex MT4交易账户相结合提供的所有好处。",
+        "list": [
+          "图表功能",
+          "自动交易",
+          "自定义"
+        ]
+      },
+      "meta_5": {
+        "description": "免费下载，以便利用它与Accuindex MT5交易账户相结合提供的所有好处。",
+        "list": [
+          "增强的图表功能",
+          "改进的自动交易",
+          "更高级的自定义选项"
+        ]
+      },
+      "mq": {
+        "list": [
+          "增强的图表功能",
+          "改进的自动交易",
+          "更高级的自定义选项"
+        ]
+      }
+    },
+    "download_windows": "下载 Windows 版本",
+    "download_android": "下载 Android 版本",
+    "download_ios": "下载 IOS 版本",
+    "mq": {
+      "title": "MQ Webtrader",
+      "description": "它将满足您作为经验丰富或新手交易者的需求。我们为您准备了可供使用的交易策略。",
+      "cta": "启动 MQ webtrader"
+    },
+    "mobile": {
+      "title": "移动端",
+      "metatader": "MetaTrader",
+      "accugoname": "AccuGo",
+      "accuconnectname": "AccuConnect",
+      "meta_4": {
+        "description": "免费下载，与 Accuindex MT4 交易账户搭配使用，享受它提供的所有好处。",
+        "list": [
+          "适用于移动设备的图表工具",
+          "便携自动交易",
+          "为移动交易体验提供自定义选项"
+        ]
+      },
+      "meta_5": {
+        "description": "免费下载，与 Accuindex MT5 交易账户搭配使用，享受它提供的所有好处。",
+        "list": [
+          "适用于移动设备的图表工具",
+          "便携自动交易",
+          "为移动交易体验提供自定义选项"
+        ]
+      },
+      "accugo": {
+        "description": "通过安全的在线交易条件享受闪电般的交易执行速度。使用 AccuGo 可信赖的快速执行，最大化利用金融市场。",
+        "list": [
+          "独特的保护技术",
+          "复杂的仪表盘",
+          "易于操作的交易体验"
+        ]
+      },
+      "accuconnect": {
+        "description": "跟随专业交易者的步伐，复制他们的交易策略！我们的应用程序可帮助您跟踪绩效并调整策略以获得最佳结果。立即下载，开启更智能的交易！",
+        "list": [
+          "易于使用的界面",
+          "设计非常精美",
+          "为易于复制交易体验提供最新技术"
+        ]
+      }
+    }
+  },
+  "profile": {
+    "change_password": {
+      "title": "更改网站密码",
+      "form": {
+        "currenct_password": "当前密码*",
+        "new_password": "新密码*",
+        "confirm_password": "确认新密码*",
+        "cta": "提交",
+        "success_message": "密码已成功更改!"
+      }
+    },
+    "settings": {
+      "title": "我的设置",
+      "go_back": "个人资料",
+      "account": {
+        "label": "账户设置",
+        "form": {
+          "label": "标题",
+          "first_name": "名字*",
+          "last_name": "姓氏*",
+          "email": "邮件*",
+          "phone_number": "手机号码*",
+          "nationality": "国籍*",
+          "residence": "居住国家*",
+          "address": "地址"
+        }
+      }
+    },
+    "my_docs": {
+      "title": "我的文档",
+      "description": "Sed ut perspiciatis unde omnis"
+    },
+    "my_application": {
+      "title": "我的申请",
+      "description": "Sed ut perspiciatis unde omnis"
+    },
+    "activities": {
+      "title": "Activies",
+      "description": "Sed ut perspiciatis unde omnis"
+    }
+  },
+  "reports": {
+    "title": "交易报告",
+    "filter_by": "筛选",
+    "form": {
+      "type": "类型",
+      "account": "账户",
+      "date_from": "开始日期",
+      "date_to": "结束日期"
+    },
+    "table": {
+      "headers": {
+        "account": "账户",
+        "type": "类型",
+        "amount": "金额",
+        "gateway": "支付通道",
+        "date_created": "创建日期",
+        "status": "状态"
+      },
+      "body": {
+        "no_data": "您在此筛选内没有任何交易"
+      }
+    }
+  },
+  "my_documents": {
+    "title": "我的文件",
+    "cta": "添加新文件",
+    "upload": "Upload New Document",
+    "heading": "My Documents",
+    "save": "Save"
+  },
+  "Proof Of Residence": "Proof Of Residence",
+  "Proof Of Identity": "Proof Of Identity",
+  "Additional Document": "Additional Document"
+}

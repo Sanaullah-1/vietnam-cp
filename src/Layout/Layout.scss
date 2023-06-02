@@ -1,0 +1,54 @@
+.layout-wrapper {
+  display: grid;
+  grid-template-columns: 240px auto;
+
+  min-height: 100vh;
+
+  aside {
+    max-width: 240px;
+    height: 100%;
+  }
+
+  main {
+    flex-grow: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  position: relative;
+}
+
+.sidebar-drawer {
+  max-width: 240px;
+}
+
+@media (max-width: 991.98px) {
+  .layout-wrapper {
+    grid-template-columns: auto;
+
+    main {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+
+  section,
+  div {
+    &.table-responsive {
+      width: calc(100vw - 24px);
+    }
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 3px 0px 5px rgba($color: #000000, $alpha: .2);
+  }
+
+  main {
+    padding-top: 95px;
+  }
+}
