@@ -14,7 +14,7 @@ const Campaigns = (props) => {
   const [loading, setloading] = useState(false);
   const [selectedAccount, setselectedAccount] = useState(null);
   const [errorMessage,setErrorMessage] = useState(null)
-  const { show, onClose, isRequested, liveAccounts } = props
+  const { show, onClose, isRequested, liveAccounts,setIsRequested } = props
 
   //   useEffect(() => {
   //     const account = searchParams.get("account");
@@ -41,6 +41,7 @@ const Campaigns = (props) => {
       if (res.isSuccess) {
         // setisSuccess(true);
         toast.success("Bonus Requested Successfully");
+        setIsRequested(true)
         setloading(false)
         resetForm()
         onClose()

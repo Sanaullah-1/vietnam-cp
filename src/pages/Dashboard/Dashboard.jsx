@@ -70,6 +70,7 @@ const Dashboard = () => {
             onClose={onClose}
             isRequested={isRequested}
             liveAccounts={liveAccounts ? liveAccounts.filter(rec => rec.accountTypeId.name == "Standard") : []}
+            setIsRequested={setIsRequested}
           />
         </div>
       </div>
