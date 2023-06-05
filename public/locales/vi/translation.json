@@ -301,7 +301,8 @@
     "vietnam_campaign":{
       "title":"TIỀN THƯỞNG CHÀO MỪNG DÀNH CHO QUÝ KHÁCH HÀNG VIỆT NAM",
       "description":"Nâng cao sức mạnh giao dịch của bạn với 15% tiền thưởng nạp tiền",
-      "btn":"Nhận ngay tiền thưởng"
+      "btn":"Nhận ngay tiền thưởng",
+      "requested":"Tiền thưởng đã được yêu cầu"
 
     }
   },

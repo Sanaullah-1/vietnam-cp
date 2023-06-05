@@ -303,7 +303,8 @@
     "vietnam_campaign":{
       "title":"WELCOME BONUS FOR VIETNAMESE CLIENTS",
       "description":"Boost your trading power with a 15% deposit bonus",
-      "btn":"Claim bonus"
+      "btn":"Claim bonus",
+      "requested":"Bonus is already requested"
 
     }
   },
