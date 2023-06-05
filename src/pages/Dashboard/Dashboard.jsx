@@ -25,8 +25,8 @@ const Dashboard = () => {
     (async function () {
       try {
         const requested = await commonService.isVietnamBonusRequested();
-        
-        console.log(requested,liveAccounts)
+
+        console.log(requested, liveAccounts)
         setIsRequested(requested)
 
       } catch (error) {
@@ -65,11 +65,11 @@ const Dashboard = () => {
           >
             {t("dashboard.vietnam_campaign.btn")}
           </button>
-          <Campaigns 
-          show={showCampaign} 
-          onClose={onClose} 
-          isRequested={isRequested}
-          liveAccounts={liveAccounts}
+          <Campaigns
+            show={showCampaign}
+            onClose={onClose}
+            isRequested={isRequested}
+            liveAccounts={liveAccounts ? liveAccounts.filter(rec => rec.accountTypeId.name == "Standard") : []}
           />
         </div>
       </div>

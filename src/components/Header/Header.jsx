@@ -74,8 +74,9 @@ const Header = ({ handleShow }) => {
               <span className="pe-3"> {langMap[lang]}</span>
             </Dropdown.Toggle>
             <Dropdown.Menu className="super-colors">
-              <Dropdown.Item eventKey="en-US">English</Dropdown.Item>
               <Dropdown.Item eventKey="vi">TIẾNG VIỆT NAM</Dropdown.Item>
+              <Dropdown.Item eventKey="en-US">English</Dropdown.Item>
+
               {/* <Dropdown.Item
                 eventKey="ar"
                 style={{ fontFamily: "Noto Kufi Arabic" }}
@@ -126,8 +127,9 @@ export default Header;
 
 const langMap = {
   // ar: "العربية",
-  ["en-US"]: "English",
+ 
   vi: 'Vietnamese',
+  ["en-US"]: "English"
   // ch: 'Chinese',
   // fa: 'فارسی'
 };

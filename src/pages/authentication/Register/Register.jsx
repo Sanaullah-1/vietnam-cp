@@ -134,9 +134,9 @@ const Register = () => {
               <span className="pe-3"> {langMap[lang]}</span>
             </Dropdown.Toggle>
             <Dropdown.Menu className="super-colors">
-              <Dropdown.Item eventKey="en-US">English</Dropdown.Item>
               <Dropdown.Item eventKey="vi">TIẾNG VIỆT NAM</Dropdown.Item>
 
+              <Dropdown.Item eventKey="en-US">English</Dropdown.Item>
               {/* <Dropdown.Item
                 eventKey="ar"
                 style={{ fontFamily: "Noto Kufi Arabic" }}

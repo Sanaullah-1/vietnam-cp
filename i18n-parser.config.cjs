@@ -2,7 +2,7 @@ module.exports = {
   input: ["./src/**/*.{js,jsx}"],
   output: "./public/locales/$LOCALE/translation.json",
   // locales: ["en", "ar", 'vi', 'fa'],
-  locales: ["en",'vi'],
+  locales: ["vi",'en'],
 
   nsSeparator: ":",
   keySeparator: ".",
