@@ -8,6 +8,7 @@ import { isRegExp } from "lodash";
 import FormGroup from "../../../components/shared/FormGroup/FormGroup";
 import SelectGroup from "../../../components/shared/SelectGroup/SelectGroup";
 import { Form, Formik } from "formik";
+import { toast } from "react-toastify";
 const Campaigns = (props) => {
   const { t } = useTranslation();
   const [loading, setloading] = useState(false);
@@ -36,17 +37,17 @@ const Campaigns = (props) => {
         },
         campaignId: "6479e989ae400255100c09bd"
       });
-      console.log("res============>", res)
 
       if (res.isSuccess) {
         // setisSuccess(true);
+        toast.success("Bonus Requested Successfully");
         setloading(false)
         resetForm()
         onClose()
 
       }else{
         // setErrorMessage(res.errors)
-        alert(res.errors)
+        toast.error(res.errors);
         onClose()
       }
     } catch (error) {
