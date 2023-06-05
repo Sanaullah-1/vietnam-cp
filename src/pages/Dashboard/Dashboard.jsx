@@ -69,7 +69,7 @@ const Dashboard = () => {
           show={showCampaign} 
           onClose={onClose} 
           isRequested={isRequested}
-          liveAccounts={liveAccounts.filter(rec=>rec.accountTypeId.name=="Standard")}
+          liveAccounts={liveAccounts}
           />
         </div>
       </div>
