@@ -362,7 +362,7 @@ const NewAccount = (props) => {
                       }}>{value.name}:</span>
                     </div>
                     <div className="col-lg-6">
-                      <span xs={6} className={`d-flex justify-content-center text-center `} >{t(`${value[selected.name || '']}`)}</span>
+                      <span xs={6} className={`d-flex justify-content-center text-center `} >{selected.name ? t(`${value[selected.name || '']}`) : "--"}</span>
                     </div>
 
                     {/* <td>{formik.values}</td> */}
